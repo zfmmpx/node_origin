@@ -1,0 +1,20 @@
+{
+  "name": "replace_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Jimmy Huang",
+  "license": "ISC",
+  "dependencies": {
+    "flattenjs": "^1.0.4",
+    "lodash": "^4.17.11",
+    "normalizr": "^3.4.1",
+    "rd": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5"
+  }
+}
