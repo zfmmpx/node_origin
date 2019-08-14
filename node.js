@@ -2,6 +2,8 @@
 const rd = require('rd');
 const path = require('path');
 const fs = require('fs');
+const dictionary = require('./dictionary.json')
+console.log('dictionary:', dictionary)
 
 // 同步遍历目录下的所有文件
 rd.eachSync(path.resolve(process.cwd()), f => {
