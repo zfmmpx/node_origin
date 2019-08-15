@@ -1,0 +1,2408 @@
+﻿{
+    "button": {
+        "component.button.return": {
+            "en-US": "RETURN",
+            "ja-JP": "戻る"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.button.add-card": {
+            "en-US": "Add",
+            "ja-JP": "増加"
+        },
+        "app.navigator.task-detail-of-data-capture.button.accept": {
+            "en-US": "accept",
+            "ja-JP": "该当"
+        },
+        "app.navigator.drawer.pending.button.waive": {
+            "en-US": "Waive",
+            "ja-JP": "諦める"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.assessment-compare": {
+            "en-US": "contrast of the circular ",
+            "ja-JP": "稟議書対比"
+        },
+        "app.navigator.drawer.remark.button.delete-draft": {
+            "en-US": "Delete Draft",
+            "ja-JP": "下書き削除"
+        },
+        "app.navigator.taskDetail.inquireForm.button.batch-add": {
+            "en-US": "Batch add",
+            "ja-JP": "バッチ増加"
+        },
+        "app.navigator.task-detail-of-data-capture.button.days": {
+            "en-US": "DAYS",
+            "ja-JP": "日数"
+        },
+        "app.navigator.task-detail-of-data-capture.button.procedure": {
+            "en-US": "Procedure",
+            "ja-JP": "手術"
+        },
+        "app.navigator.drawer.remark.button.save-as-draft": {
+            "en-US": "Save as Draft",
+            "ja-JP": "下書きとして保存"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.incident-payable": {
+            "en-US": "Incident Payable",
+            "ja-JP": "給付金をふやす"
+        },
+        "app.navigator.drawer.messager.button.no": {
+            "en-US": "No",
+            "ja-JP": "いいえ"
+        },
+        "app.navigator.task-detail-of-data-capture.button.fee": {
+            "en-US": "Fee",
+            "ja-JP": "費用"
+        },
+        "app.navigator.drawer.pending.button.letter": {
+            "en-US": "Letter",
+            "ja-JP": "文書"
+        },
+        "app.navigator.taskDetail.inquireForm.button.batch-deletion": {
+            "en-US": "Batch deletion",
+            "ja-JP": "バッチ削除"
+        },
+        "app.navigator.task-detail-of-data-capture.button.error": {
+            "en-US": "ERROR",
+            "ja-JP": "エラー"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.re-assessment": {
+            "en-US": "Re - Assessment",
+            "ja-JP": "再評価"
+        },
+        "app.navigator.taskDetail.inquireForm.button.switch-to-list-mode": {
+            "en-US": "Switch to list mode",
+            "ja-JP": "リストモードを切り替える"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.contract-liquidation": {
+            "en-US": "Contract Liquidation",
+            "ja-JP": "契約精算"
+        },
+        "app.navigator.task-detail-of-data-capture.button": {
+            "en-US": "Incident",
+            "ja-JP": "事件"
+        },
+        "app.navigator.task-detail-of-data-capture.button.reject": {
+            "en-US": "REJECT",
+            "ja-JP": "断る"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.payment-allocation": {
+            "en-US": "Payment Allocation",
+            "ja-JP": "支払いを配分"
+        },
+        "app.navigator.drawer.pending.button.sms": {
+            "en-US": "SMS",
+            "ja-JP": "SMS"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.invoice-payable": {
+            "en-US": "Invoice Payable",
+            "ja-JP": "インボイス支払金額"
+        },
+        "component.button.next": {
+            "en-US": "next",
+            "ja-JP": "ネクスト"
+        },
+        "app.navigator.task-detail-of-data-capture.button.service": {
+            "en-US": "Service",
+            "ja-JP": "サービス"
+        },
+        "component.button.back": {
+            "en-US": "back",
+            "ja-JP": "バック"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.treatment-payable": {
+            "en-US": "Treatment Payable",
+            "ja-JP": "給付金をふやす"
+        },
+        "app.navigator.task-detail-of-data-capture.button.submit": {
+            "en-US": "SUBMIT",
+            "ja-JP": "提出"
+        },
+        "app.navigator.task-detail-of-data-capture.button.delete": {
+            "en-US": "Delete",
+            "ja-JP": "デリート"
+        },
+        "app.navigator.drawer.pending.button.more": {
+            "en-US": "More",
+            "ja-JP": "もっと"
+        },
+        "app.navigator.drawer.messager.button.yes": {
+            "en-US": "Yes",
+            "ja-JP": "はい"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.service-payable": {
+            "en-US": "Service Payable",
+            "ja-JP": "サービス支払金額"
+        },
+        "app.navigator.taskDetail.inquireForm.button.reject": {
+            "en-US": "Reject",
+            "ja-JP": "断る"
+        },
+        "app.navigator.caseDetail.button.end-case": {
+            "en-US": "End Case",
+            "ja-JP": "案件終了"
+        },
+        "app.navigator.task-detail-of-data-capture.button.day": {
+            "en-US": "DAY",
+            "ja-JP": "日にち"
+        },
+        "app.navigator.task-detail-of-data-capture.button.decision": {
+            "en-US": "Decision",
+            "ja-JP": "該当/非該当"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.button.beneficiary": {
+            "en-US": "Beneficiary",
+            "ja-JP": "受益者"
+        },
+        "app.usermanagement.button.create-new-dashboard": {
+            "en-US": "Create New Dashboard",
+            "ja-JP": "新たなダッシュボードを作成する"
+        },
+        "app.navigator.task-detail-of-claim-assessment.button.day": {
+            "en-US": "DAY",
+            "ja-JP": "日"
+        },
+        "app.navigator.taskDetail.inquireForm.button.cancel": {
+            "en-US": "Cancel",
+            "ja-JP": "キャンセル"
+        }
+    },
+    "label": {
+        "form.delete": {
+            "en-US": "delete",
+            "ja-JP": "削除"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.payee-identity-no": {
+            "en-US": "Payee Identity No.",
+            "ja-JP": "受益者身分ナンバー"
+        },
+        "app.navigator.task-detail-of-data-capture.label.claim-type": {
+            "en-US": "Claim Type",
+            "ja-JP": "受付事案"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-assessment": {
+            "en-US": "Claim Assessment",
+            "ja-JP": "クレーム評価"
+        },
+        "app.navigator.drawer.remark.tab.case": {
+            "en-US": "CASE",
+            "ja-JP": "案件"
+        },
+        "form.submit": {
+            "en-US": "Submit",
+            "ja-JP": "提出"
+        },
+        "app.usermanagement.basicInfo.label.skill.type": {
+            "en-US": "Skill Type",
+            "ja-JP": "技能タイプ"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.plicy-no": {
+            "en-US": "Policy No.",
+            "ja-JP": "ポリシーナンバー"
+        },
+        "app.navigator.drawer.pending.label.pending": {
+            "en-US": "pending",
+            "ja-JP": "保留中"
+        },
+        "app.navigator.taskDetail.inquireForm.label.priority": {
+            "en-US": "Priority",
+            "ja-JP": "優先"
+        },
+        "app.usermanagement.basicInfo.label.identity-type": {
+            "en-US": "Identity Type",
+            "ja-JP": "身分タイプ"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.amount-type": {
+            "en-US": "Amount Type",
+            "ja-JP": "金額タイプ"
+        },
+        "app.navigator.index.mode.flow.detail.overdue-taskReamainingTime": {
+            "en-US": "Task Remaining Time",
+            "ja-JP": "Task Remaining Time"
+        },
+        "app.navigator.taskDetail.inquireForm.progress.insured": {
+            "en-US": "Insured",
+            "ja-JP": "被保険者"
+        },
+        "app.navigator.taskDetail.inquireForm.label.inquiry": {
+            "en-US": "Inquiry",
+            "ja-JP": "問い合わせ"
+        },
+        "app.navigator.index.mode.flow.organization": {
+            "en-US": "ORGANIZATION",
+            "ja-JP": "組織"
+        },
+        "component.noticeIcon.cleared": {
+            "en-US": "Cleared",
+            "ja-JP": "クリア済み"
+        },
+        "app.navigator.inquire.filters.level1-organizatino-code": {
+            "en-US": "Level 1 Organization Code/Name",
+            "ja-JP": "レベル1 組織コード/名前"
+        },
+        "app.navigator.task-detail-of-data-capture.label.address": {
+            "en-US": "Address",
+            "ja-JP": "住所"
+        },
+        "app.navigator.task-detail-of-data-capture.label.case-category": {
+            "en-US": "Case Category",
+            "ja-JP": "案件カテゴリー"
+        },
+        "app.navigator.task-detail-of-data-capture.label.treatment-no": {
+            "en-US": "Treatment No.",
+            "ja-JP": "治療番号"
+        },
+        "app.navigator.drawer.remark.end": {
+            "en-US": "End",
+            "ja-JP": "完了"
+        },
+        "time.format.month": {
+            "en-US": "Month",
+            "ja-JP": "月"
+        },
+        "app.navigator.task-detail-of-data-capture.label.case-no": {
+            "en-US": "Case No.",
+            "ja-JP": "案件番号"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.assessment-decision": {
+            "en-US": "Assessment Decision",
+            "ja-JP": "査定結果"
+        },
+        "app.navigator.caseDetail.label.case-sla-percentage": {
+            "en-US": "Case SLA Percentage",
+            "ja-JP": "SLA案件のパーセント"
+        },
+        "app.navigator.taskDetail.inquireForm.label.current-activity": {
+            "en-US": "Current Activity",
+            "ja-JP": "カレントアクティビティ"
+        },
+        "app.navigator.taskDetail.inquireForm.title.task-information": {
+            "en-US": "Task Information",
+            "ja-JP": "タスク情報"
+        },
+        "app.navigator.task-detail-of-data-capture.title.treatment": {
+            "en-US": "Treatment",
+            "ja-JP": "治療"
+        },
+        "app.usermanagement.basicInfo.title.theme-color": {
+            "en-US": "Theme Color",
+            "ja-JP": "テーマカラー"
+        },
+        "form.title.label": {
+            "en-US": "Title",
+            "ja-JP": "タイトル"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-consultation": {
+            "en-US": "Date Of Consultation",
+            "ja-JP": "問い合わせ日付"
+        },
+        "app.navigator.task-detail-of-data-capture.label.applicant": {
+            "en-US": "Applicant",
+            "ja-JP": "請求者"
+        },
+        "app.navigator.drawer.pending.label.underwriter": {
+            "en-US": "Underwriter",
+            "ja-JP": "引受人"
+        },
+        "app.navigator.task-detail-of-data-capture.label.procedure-code": {
+            "en-US": "Procedure Code",
+            "ja-JP": "手術コード"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.disability-identification-date": {
+            "en-US": "Disability Identification Date",
+            "ja-JP": "症状固定日"
+        },
+        "app.navigator.taskDetail.inquireForm.label.l3-organization": {
+            "en-US": "Level 3 Organization",
+            "ja-JP": "3級組織"
+        },
+        "app.navigator.taskDetail.inquireForm.tab.case": {
+            "en-US": "Case",
+            "ja-JP": "ケース"
+        },
+        "form.date.placeholder.end": {
+            "en-US": "End date",
+            "ja-JP": "終了日"
+        },
+        "app.navigator.caseDetail.autoApproved": {
+            "en-US": "AutoApproved",
+            "ja-JP": "自動承認"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-date": {
+            "en-US": "Diagnosis Date",
+            "ja-JP": "診断確定日"
+        },
+        "form.sureDelete": {
+            "en-US": "sure to delete?",
+            "ja-JP": "削除を確認しますか？"
+        },
+        "form.add": {
+            "en-US": "add",
+            "ja-JP": "新しい"
+        },
+        "app.navigator.task-detail-of-data-capture.label.bank-code": {
+            "en-US": "Bank Code",
+            "ja-JP": "銀行コード"
+        },
+        "app.usermanagement.basicInfo.title.person": {
+            "en-US": "Personal Information",
+            "ja-JP": "個人情報"
+        },
+        "app.navigator.taskDetail.inquireForm.tab.claim-history": {
+            "en-US": "Claim History",
+            "ja-JP": "クレーム履歴"
+        },
+        "menu.account.logout": {
+            "en-US": "Logout",
+            "ja-JP": "ログアウト"
+        },
+        "app.navigator.taskDetail.inquireForm.label.manual-assessment": {
+            "en-US": "Manual Assessment",
+            "ja-JP": "人工的評価"
+        },
+        "time.format.day": {
+            "en-US": "Day",
+            "ja-JP": "日"
+        },
+        "app.navigator.inquire.filters.level2-organizatino-code": {
+            "en-US": "Level 2 Organization Code/Name",
+            "ja-JP": "レベル2 組織コード/名前"
+        },
+        "app.usermanagement.basicInfo.title.dashboard": {
+            "en-US": "Dashboard",
+            "ja-JP": "ダッシュボード"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.policy-holder": {
+            "en-US": "PolicyHolder",
+            "ja-JP": "契約者"
+        },
+        "app.navigator.task-detail-of-data-capture.label.scheduled-date": {
+            "en-US": "Scheduled date",
+            "ja-JP": "支払予定日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.payee-type": {
+            "en-US": "Payee Type",
+            "ja-JP": "支払タイプ"
+        },
+        "form.to": {
+            "en-US": "to",
+            "ja-JP": "に"
+        },
+        "app.navigator.task-detail-of-data-capture.label.name-of-doctor": {
+            "en-US": "Name Of Doctor",
+            "ja-JP": "医者名前"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.total-expense": {
+            "en-US": "Total Expense",
+            "ja-JP": "被治療者負担費用"
+        },
+        "lang.simplified-chinese": {
+            "en-US": "简体中文",
+            "ja-JP": "简体中文"
+        },
+        "app.navigator.caseDetail.urgent": {
+            "en-US": "URGENT",
+            "ja-JP": "代理店"
+        },
+        "app.navigator.task-detail-of-data-capture.label.critical-illness-name": {
+            "en-US": "Critical Illness Name",
+            "ja-JP": "重大疾病名前"
+        },
+        "app.navigator.task-detail-of-data-capture.label.deductible-amount": {
+            "en-US": "Deductible Amount",
+            "ja-JP": "控除"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.policy-no": {
+            "en-US": "Policy No.",
+            "ja-JP": "証券番号"
+        },
+        "app.navigator.task-detail-of-data-capture.label.email": {
+            "en-US": "Email",
+            "ja-JP": "Eメール"
+        },
+        "app.usermanagement.basicInfo.title.language": {
+            "en-US": "Language",
+            "ja-JP": "言語"
+        },
+        "component.tableSearch.reset": {
+            "en-US": "Reset",
+            "ja-JP": "リセット"
+        },
+        "app.remark.reject.success": {
+            "en-US": "Rejected Successfully",
+            "ja-JP": " 断り完了"
+        },
+        "menu.claim": {
+            "en-US": "claim",
+            "ja-JP": "请求"
+        },
+        "lang.traditional-chinese": {
+            "en-US": "繁体中文",
+            "ja-JP": "繁体中文"
+        },
+        "app.navigator.taskDetail.inquireForm.label.l2-organization": {
+            "en-US": "Level 2 Organization",
+            "ja-JP": "2級組織"
+        },
+        "app.navigator.taskDetail.inquireForm.label.task-assignment-date": {
+            "en-US": "Task Assignment Date",
+            "ja-JP": "タスクアセスメント日"
+        },
+        "app.navigator.taskDetail.inquireForm.label.quality-control": {
+            "en-US": "Quality Control",
+            "ja-JP": "品質管理"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.calculative-amount": {
+            "en-US": "Calculative Amount",
+            "ja-JP": "計算金額"
+        },
+        "app.navigator.taskDetail.inquireForm.label.case-information": {
+            "en-US": "Case Information",
+            "ja-JP": "ケース情報"
+        },
+        "app.usermanagement.basicInfo.label.english-name": {
+            "en-US": "English Name",
+            "ja-JP": "英語名前"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.first-name": {
+            "en-US": "First Name",
+            "ja-JP": "名義人"
+        },
+        "app.navigator.index.mode.flow.totalTask": {
+            "en-US": "TOTAL TASK",
+            "ja-JP": "総計タスク"
+        },
+        "app.organization.lastUpdatedBy": {
+            "en-US": "Last Updated By",
+            "ja-JP": "最新更新者"
+        },
+        "app.remark.delete.success": {
+            "en-US": "removed successfully",
+            "ja-JP": "削除完了"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.payee": {
+            "en-US": "Payee",
+            "ja-JP": "受取人"
+        },
+        "app.usermanagement.basicInfo.certificate.obtaining-date": {
+            "en-US": "Obtaining Date",
+            "ja-JP": "取得日"
+        },
+        "app.navigator.task-detail-of-data-capture.title.medical-surgical-procedure": {
+            "en-US": "Medical / Surgical Procedure",
+            "ja-JP": "内科／外科手術"
+        },
+        "app.navigator.task-detail-of-data-capture.label.remake": {
+            "en-US": "comment",
+            "ja-JP": "コメント"
+        },
+        "app.navigator.taskDetail.inquireForm.label.insured-surname": {
+            "en-US": "Insured Surname",
+            "ja-JP": "被保険者苗字"
+        },
+        "app.navigator.taskDetail.inquireForm.progress.try-to-explore": {
+            "en-US": "Try to explore",
+            "ja-JP": "試してみる"
+        },
+        "app.chat.send": {
+            "en-US": "Send",
+            "ja-JP": "発送"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-approve": {
+            "en-US": "Claim Approve",
+            "ja-JP": "クレーム許可"
+        },
+        "app.navigator.task-detail-of-data-capture.label.beneficial-name": {
+            "en-US": "beneficiary's name",
+            "ja-JP": "受取人名"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.payable-amount": {
+            "en-US": "Payable Amount",
+            "ja-JP": "支払金額"
+        },
+        "component.noticeIcon.clear": {
+            "en-US": "Clear",
+            "ja-JP": "クリア"
+        },
+        "app.navigator.task-detail-of-data-capture.label.post-of-body-injured": {
+            "en-US": "Part Of Body Injured",
+            "ja-JP": "体の被害部分"
+        },
+        "app.navigator.caseDetail.collect": {
+            "en-US": "FAVORITE",
+            "ja-JP": "お気に入り"
+        },
+        "app.usermanagement.basicInfo.title.organization": {
+            "en-US": "Organization Information",
+            "ja-JP": "組織情報"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.beneficiary-percentage": {
+            "en-US": "Beneficiary Percentage",
+            "ja-JP": "倍率"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-birth": {
+            "en-US": "Date Of Birth",
+            "ja-JP": "生年月日"
+        },
+        "app.navigator.caseDetail.label.process-type": {
+            "en-US": "Process Type",
+            "ja-JP": "プロセス　タイプ"
+        },
+        "app.navigator.index.mode.flow.assign": {
+            "en-US": "ASSIGNEE",
+            "ja-JP": "代理人"
+        },
+        "app.navigator.task-detail-of-data-capture.title.data-capture": {
+            "en-US": "DATA CAPTURE",
+            "ja-JP": "データ収集"
+        },
+        "app.navigator.taskDetail.inquireForm.label.assignee": {
+            "en-US": "Assignee",
+            "ja-JP": "代理人"
+        },
+        "app.navigator.drawer.aiCircle.mark-all-as-read": {
+            "en-US": "Mark All as Read",
+            "ja-JP": "全て既読にする"
+        },
+        "app.navigator.inquire.filters.level3-organizatino-code": {
+            "en-US": "Level 3 Organization Code/Name",
+            "ja-JP": "レベル3 組織コード/名前"
+        },
+        "app.navigator.taskDetail.inquireForm.progress.activity": {
+            "en-US": "Activity",
+            "ja-JP": "活動"
+        },
+        "app.usermanagement.basicInfo.label.first-name": {
+            "en-US": "First Name",
+            "ja-JP": "名前"
+        },
+        "app.chat.status.success": {
+            "en-US": "Successful change",
+            "ja-JP": "変更完了"
+        },
+        "app.navigator.task-detail-of-data-capture.label.place-of-incident": {
+            "en-US": "Place Of Incident",
+            "ja-JP": "事故発生場所"
+        },
+        "app.navigator.drawer.pending.form.label.Save": {
+            "en-US": "Save",
+            "ja-JP": "保存"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.payy-type": {
+            "en-US": "Payee Type",
+            "ja-JP": "受取人タイプ"
+        },
+        "app.usermanagement.basicInfo.label.birthday": {
+            "en-US": "Birthday",
+            "ja-JP": "誕生日"
+        },
+        "app.navigator.drawer.remark.tab.title": {
+            "en-US": "Information Classification",
+            "ja-JP": "情報分野"
+        },
+        "app.navigator.taskDetail.inquireForm.label.cancelled": {
+            "en-US": "Cancelled",
+            "ja-JP": "取り消し"
+        },
+        "app.navigator.taskDetail.inquireForm.label.tag": {
+            "en-US": "tag",
+            "ja-JP": " タグ"
+        },
+        "app.usermanagement.basicInfo.label.gender": {
+            "en-US": "Gender",
+            "ja-JP": "性別"
+        },
+        "app.usermanagement.basicInfo.title": {
+            "en-US": "USER CENTER",
+            "ja-JP": "ユーザーセンター"
+        },
+        "app.navigator.task-detail-of-data-capture.label.identification-date": {
+            "en-US": "Identification Date",
+            "ja-JP": "認定日付"
+        },
+        "app.usermanagement.basicInfo.label.phone-no": {
+            "en-US": "Phone No.",
+            "ja-JP": "電話番号"
+        },
+        "app.organization.parentCode": {
+            "en-US": "Parent Organization code",
+            "ja-JP": "親組織コード"
+        },
+        "app.usermanagement.basicInfo.certificate": {
+            "en-US": "Certificate",
+            "ja-JP": "証明書"
+        },
+        "app.navigator.task-detail.title.claim-inquiry": {
+            "en-US": "CLAIM INQUIRY",
+            "ja-JP": "クレーム問い合わせ"
+        },
+        "app.navigator.drawer.aiCircle.label.more": {
+            "en-US": "MORE",
+            "ja-JP": "もっと"
+        },
+        "app.usermanagement.basicInfo.label.marital-status": {
+            "en-US": "Marital Status",
+            "ja-JP": "配偶者有り無し"
+        },
+        "app.navigator.task-detail-of-claim-assessment.title.medical-surgical-procedure": {
+            "en-US": "Procedure",
+            "ja-JP": "医療"
+        },
+        "app.navigator.drawer.pending.label.agent": {
+            "en-US": "Agent",
+            "ja-JP": "代理人"
+        },
+        "app.navigator.task-detail-of-data-capture.label.bank-account-name": {
+            "en-US": "Bank Account Name",
+            "ja-JP": "口座名義人"
+        },
+        "app.navigator.task-detail-of-data-capture.label.unit": {
+            "en-US": "Unit",
+            "ja-JP": "単位"
+        },
+        "app.remark.validate.success": {
+            "en-US": "Validate success",
+            "ja-JP": "検証完了"
+        },
+        "app.navigator.task-detail-of-data-capture.label.payment-method": {
+            "en-US": "Payment Method",
+            "ja-JP": "支払方式"
+        },
+        "app.navigator.task-detail-of-data-capture.label.current-state": {
+            "en-US": "Current State",
+            "ja-JP": "現状"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.payment-method": {
+            "en-US": "Payment Method",
+            "ja-JP": "送金方法"
+        },
+        "app.usermanagement.permission.permission-group-name": {
+            "en-US": "GROUP NAME",
+            "ja-JP": "グループ名前"
+        },
+        "app.navigator.task-detail-of-data-capture.title.claimant-information": {
+            "en-US": "Claimant Information",
+            "ja-JP": "請求者情報"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-discharge": {
+            "en-US": "Date Of Discharge",
+            "ja-JP": "退院日"
+        },
+        "layout.workspace-user-login.link.help": {
+            "en-US": "Help",
+            "ja-JP": "ヘルプ"
+        },
+        "app.navigator.drawer.pending.additional-document": {
+            "en-US": "Additional Document",
+            "ja-JP": "付加書類"
+        },
+        "app.remark.expiryDate": {
+            "en-US": "ExpiryDate can't be earlier than EffectiveDate.",
+            "ja-JP": "有効日＞締切日"
+        },
+        "app.navigator.taskDetail.inquireForm.label.data-capture": {
+            "en-US": "Data Capture",
+            "ja-JP": "データ収集"
+        },
+        "app.navigator.inquire.filters.dob": {
+            "en-US": "DOB",
+            "ja-JP": "DOB"
+        },
+        "app.navigator.caseDetail.basic-information": {
+            "en-US": "Basic Information",
+            "ja-JP": "Basic Information"
+        },
+        "app.navigator.drawer.pending.title.content": {
+            "en-US": "Content",
+            "ja-JP": "内容"
+        },
+        "app.navigator.taskDetail.inquireForm.label.creation-time": {
+            "en-US": "Creation Date",
+            "ja-JP": "創立日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.datetime-of-death": {
+            "en-US": "DateTime Of Death",
+            "ja-JP": "死亡日時"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-admission": {
+            "en-US": "Date Of Admission",
+            "ja-JP": "入院日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.to-date": {
+            "en-US": "To date",
+            "ja-JP": "終了日"
+        },
+        "app.navigator.taskDetail.inquireForm.tab.user": {
+            "en-US": "User",
+            "ja-JP": "ユーザー"
+        },
+        "app.navigator.caseDetail.label.case-sla-remain-time": {
+            "en-US": "Case SLA Remain Time",
+            "ja-JP": "SLA案件保留時間"
+        },
+        "app.navigator.drawer.360.tabs.benefit.accumulated-amount": {
+            "en-US": "Accumulated Amount",
+            "ja-JP": "累計金額"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-operation": {
+            "en-US": "Date Of Operation",
+            "ja-JP": "手術日"
+        },
+        "app.navigator.drawer.pending.request-underwriting": {
+            "en-US": "Request Underwriting",
+            "ja-JP": "Request Underwriting"
+        },
+        "form.date.placeholder.start": {
+            "en-US": "Start date",
+            "ja-JP": "開始日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.total-expense": {
+            "en-US": "Total Expense",
+            "ja-JP": "総費用"
+        },
+        "app.navigator.drawer.remark.title": {
+            "en-US": "INFORMATION MANAGEMENT",
+            "ja-JP": "情報管理"
+        },
+        "app.navigator.caseDetail.label.case-sla-due-data": {
+            "en-US": "Case SLA Due Date",
+            "ja-JP": "SLA案件の締切日"
+        },
+        "app.navigator.taskDetail.inquireForm.label.urgent": {
+            "en-US": "Urgent",
+            "ja-JP": "緊急"
+        },
+        "app.navigator.task-detail-of-claim-assessment.title.claim-result": {
+            "en-US": "Claim Result",
+            "ja-JP": "クレーム結果"
+        },
+        "app.navigator.task-detail-of-data-capture.label.treatment-type": {
+            "en-US": "Treatment Type",
+            "ja-JP": "治療タイプ"
+        },
+        "app.navigator.drawer.pending.label.day": {
+            "en-US": "day",
+            "ja-JP": "日数"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-approval": {
+            "en-US": "Claim Approval",
+            "ja-JP": "クレーム認定"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.claim-payment-amount": {
+            "en-US": "Claim Payment Amount",
+            "ja-JP": "合計给付金"
+        },
+        "app.navigator.caseDetail.relevant-cases": {
+            "en-US": "Relevant Cases",
+            "ja-JP": "Relevant Cases"
+        },
+        "app.usermanagement.basicInfo.label.skill.level": {
+            "en-US": "Skill Level",
+            "ja-JP": "技能レベル"
+        },
+        "form.save": {
+            "en-US": "Save",
+            "ja-JP": "保存"
+        },
+        "app.navigator.task-detail-of-data-capture.label.incident-no": {
+            "en-US": "Incident No.",
+            "ja-JP": "事件番号"
+        },
+        "app.usermanagement.basicInfo.label.organization": {
+            "en-US": "Organization",
+            "ja-JP": "組織"
+        },
+        "component.tableSearch.back": {
+            "en-US": "Back",
+            "ja-JP": "バック"
+        },
+        "app.navigator.task-detail-of-data-capture.label.basic-plan-name": {
+            "en-US": "Basic Plan Name",
+            "ja-JP": "商品名"
+        },
+        "app.usermanagement.submit.error": {
+            "en-US": "submit error!",
+            "ja-JP": "提出エラー！"
+        },
+        "app.navigator.inquire.filters.report-to": {
+            "en-US": "Report To",
+            "ja-JP": "○○に報告する"
+        },
+        "app.navigator.taskDetail.inquireForm.label.l1-organization": {
+            "en-US": "Level 1 Organization",
+            "ja-JP": "1級組織"
+        },
+        "app.navigator.task-detail-of-data-capture.label.system-calculation-amount": {
+            "en-US": "System Calculation Amount",
+            "ja-JP": "システム計算金額"
+        },
+        "app.navigator.index.mode.flow": {
+            "en-US": "Flow",
+            "ja-JP": "流れ"
+        },
+        "menu": {
+            "en-US": "menu",
+            "ja-JP": "メニュー"
+        },
+        "app.navigator.taskDetail.inquireForm.progress.claim-request": {
+            "en-US": "Claim Request",
+            "ja-JP": "クレーム要求"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.claim-type": {
+            "en-US": "claim Type",
+            "ja-JP": "受付事案"
+        },
+        "app.navigator.inquire.table-column.ext-no-none": {
+            "en-US": "Ext. No.",
+            "ja-JP": "内線なし"
+        },
+        "app.navigator.drawer.aiCircle.create-case.title": {
+            "en-US": "Create Case",
+            "ja-JP": "案件作成"
+        },
+        "app.navigator.task-detail-of-data-capture.label.address-of-insured": {
+            "en-US": "Address of Insured",
+            "ja-JP": "被保険者住所"
+        },
+        "app.navigator.drawer.360.title": {
+            "en-US": "360° INSURED INFORMATION",
+            "ja-JP": "360° 被保険者情報"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.beneficiary-amount": {
+            "en-US": "Beneficiary Amount",
+            "ja-JP": "金額"
+        },
+        "app.navigator.taskDetail.inquireForm.label.assign": {
+            "en-US": "Assign",
+            "ja-JP": "分配"
+        },
+        "time.format.week": {
+            "en-US": "Week",
+            "ja-JP": "週"
+        },
+        "app.navigator.caseDetail.label.meet-case-sla": {
+            "en-US": "Meet Case SLA",
+            "ja-JP": "ミートSLA案件"
+        },
+        "app.navigator.taskDetail.inquireForm.label.operate": {
+            "en-US": "Operate",
+            "ja-JP": "手術"
+        },
+        "app.navigator.taskDetail.inquireForm.label.assessment-decision": {
+            "en-US": "Assessment Decision",
+            "ja-JP": "評価決定"
+        },
+        "app.remark.badge": {
+            "en-US": "Data to be viewed",
+            "ja-JP": "閲覧した情報"
+        },
+        "app.navigator.drawer.360.tabs.claim.claimNo": {
+            "en-US": "Claim No.",
+            "ja-JP": "クレームナンバー"
+        },
+        "app.navigator.task-detail-of-data-capture.label.male": {
+            "en-US": "male",
+            "ja-JP": "男性"
+        },
+        "app.usermanagement.basicInfo.title.task-folder": {
+            "en-US": "Task Folder",
+            "ja-JP": "タスクフォルダ"
+        },
+        "app.navigator.drawer.remark.label.title.multiple-choice": {
+            "en-US": "Multiple Choice",
+            "ja-JP": "多数選択"
+        },
+        "app.navigator.taskDetail.inquireForm.label.collection-time": {
+            "en-US": "Collection Time",
+            "ja-JP": "お気に入り時刻"
+        },
+        "app.navigator.drawer.remark.title.view-existing": {
+            "en-US": "View Existing",
+            "ja-JP": "既存ものを確認"
+        },
+        "app.remark.submit.prefix": {
+            "en-US": "you have",
+            "ja-JP": "持ってる"
+        },
+        "app.navigator.task-detail-of-data-capture.label.nationality": {
+            "en-US": "Nationality",
+            "ja-JP": "国籍"
+        },
+        "app.navigator.drawer.pending.create-new-pending": {
+            "en-US": "Create New Pending",
+            "ja-JP": "新しい保留を作成"
+        },
+        "app.navigator.task-detail-of-data-capture.label.waived-reason": {
+            "en-US": "Waived Reason",
+            "ja-JP": "保険料免除の事由"
+        },
+        "app.navigator.index.mode.card.days": {
+            "en-US": "days",
+            "ja-JP": "日数"
+        },
+        "app.navigator.drawer.360.tabs.special": {
+            "en-US": "SPECIAL T&C",
+            "ja-JP": "特別T&C（特別約款）"
+        },
+        "app.navigator.task-detail-of-data-capture.label.first-name": {
+            "en-US": "First Name",
+            "ja-JP": "氏名"
+        },
+        "app.navigator.index.mode.flow.detail.error": {
+            "en-US": "ERROR",
+            "ja-JP": "ERROR"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-no": {
+            "en-US": "Diagnosis No.",
+            "ja-JP": "傷病コード"
+        },
+        "app.navigator.taskDetail.inquireForm.label.first-name": {
+            "en-US": "First Name",
+            "ja-JP": "名前"
+        },
+        "app.navigator.drawer.pending.title.reminder": {
+            "en-US": "REMINDER",
+            "ja-JP": "注意"
+        },
+        "app.navigator.taskDetail.inquireForm.label.task-due-date": {
+            "en-US": "Task Due Date",
+            "ja-JP": "タスク締切日"
+        },
+        "app.usermanagement.basicInfo.label.skill.employmentDate": {
+            "en-US": "Employment Date",
+            "ja-JP": "就業日付"
+        },
+        "app.navigator.task-detail-of-claim-assessment.title.claimant-information": {
+            "en-US": "Claimant Information",
+            "ja-JP": "報告者"
+        },
+        "app.navigator.taskDetail.inquireForm.label.activity-name": {
+            "en-US": "Activity Name",
+            "ja-JP": "活動名"
+        },
+        "component.tableSearch.search": {
+            "en-US": "Search",
+            "ja-JP": "サーチ"
+        },
+        "app.navigator.task-detail-of-data-capture.label.detail-description-of-incident": {
+            "en-US": "Detail Description Of Incident",
+            "ja-JP": "事件の詳しい記述"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.payment-amount": {
+            "en-US": "Payment Amount",
+            "ja-JP": "受取金額"
+        },
+        "app.navigator.task-detail-of-data-capture.label.to-date-v2": {
+            "en-US": "To date",
+            "ja-JP": "治療の実施終了日"
+        },
+        "app.navigator.drawer.pending.title.historical-record": {
+            "en-US": "Historical Record",
+            "ja-JP": "歴史記録"
+        },
+        "app.navigator.task-detail-of-data-capture.title.payee-information.upper": {
+            "en-US": "PAYEE INFORMATION",
+            "ja-JP": "受取人情報"
+        },
+        "app.usermanagement.basicInfo.table.tag.skill": {
+            "en-US": "Skill",
+            "ja-JP": "技能"
+        },
+        "app.navigator.taskDetail.inquireForm.label.expiry-date": {
+            "en-US": "Expiry Date",
+            "ja-JP": "有効期限"
+        },
+        "component.tableSearch.collapse": {
+            "en-US": "Collapse",
+            "ja-JP": "崩壊"
+        },
+        "app.navigator.drawer.pending.form.title.first-reminder-on-the": {
+            "en-US": "First Reminder on the",
+            "ja-JP": "一回目のリマインド"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.deductible-amount": {
+            "en-US": "Deductible Amount",
+            "ja-JP": "減免金額"
+        },
+        "app.usermanagement.basicInfo.label.identity-no": {
+            "en-US": "Identity No.",
+            "ja-JP": "身分番号"
+        },
+        "components.calculation.disChargeDays": {
+            "en-US": "Discharge Date",
+            "ja-JP": "退院日"
+        },
+        "app.remark.category": {
+            "en-US": "Category",
+            "ja-JP": "カテゴリー"
+        },
+        "form.edit": {
+            "en-US": "edit",
+            "ja-JP": "修正"
+        },
+        "app.usermanagement.basicInfo.label.skill.code": {
+            "en-US": "Skill Code",
+            "ja-JP": "技能コード"
+        },
+        "app.usermanagement.basicInfo.title.skill": {
+            "en-US": "Skill Set",
+            "ja-JP": "技能"
+        },
+        "app.navigator.index.mode.flow.detail.overdue-caseReamainingTime": {
+            "en-US": "Case Remaining Time",
+            "ja-JP": "Case Remaining Time"
+        },
+        "app.navigator.drawer.remark.tab.insured": {
+            "en-US": "INSURED",
+            "ja-JP": "被保険者"
+        },
+        "time.format.quarter": {
+            "en-US": "Quarter",
+            "ja-JP": "季"
+        },
+        "app.navigator.task-detail-of-data-capture.label.incident-in-detail": {
+            "en-US": "Incident In Detail",
+            "ja-JP": "事件の詳しい記述"
+        },
+        "app.navigator.taskDetail.inquireForm.label.insured-name": {
+            "en-US": "Insured Name",
+            "ja-JP": "被保険者の名前"
+        },
+        "app.navigator.index.mode.flow.case-category": {
+            "en-US": "CASE CATEGORY",
+            "ja-JP": "案件カテゴリー"
+        },
+        "lang": {
+            "en-US": "Languages",
+            "ja-JP": "言語"
+        },
+        "app.navigator.drawer.remark.label.invalid-case-number": {
+            "en-US": "Invalid case number",
+            "ja-JP": "無効な案件番号"
+        },
+        "app.navigator.task-detail-of-data-capture.label.indetity-no": {
+            "en-US": "Identity No.",
+            "ja-JP": "身分ナンバー"
+        },
+        "app.usermanagement.basicInfo.permission": {
+            "en-US": "Permission",
+            "ja-JP": "許可"
+        },
+        "component.noticeIcon.end": {
+            "en-US": "loaded",
+            "ja-JP": "ロード済み"
+        },
+        "app.navigator.index.mode.flow.unassign": {
+            "en-US": "Unassign",
+            "ja-JP": "配分解除"
+        },
+        "app.usermanagement.basicInfo.avatar.effective-date": {
+            "en-US": "Effective date",
+            "ja-JP": "発効日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.case-of-incident": {
+            "en-US": "Cause Of Incident",
+            "ja-JP": "事故原因"
+        },
+        "app.navigator.taskDetail.inquireForm.title.business-detial": {
+            "en-US": "Business Detial",
+            "ja-JP": "ビジネス詳細"
+        },
+        "app.navigator.drawer.pending.title.subject": {
+            "en-US": " Subject",
+            "ja-JP": " 対象"
+        },
+        "app.navigator.task-detail-of-data-capture.label.is-corporation": {
+            "en-US": "Is Corporation",
+            "ja-JP": "会社"
+        },
+        "app.navigator.task-detail-of-data-capture.status.todo": {
+            "en-US": "TODO",
+            "ja-JP": "やります"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.title.beneficiary-allocation": {
+            "en-US": "Beneficiary Allocation",
+            "ja-JP": "受取人情報"
+        },
+        "app.remark.submit.success": {
+            "en-US": "Submit successful",
+            "ja-JP": " 提出完了"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-type": {
+            "en-US": "Claim Type",
+            "ja-JP": "クレームタイプ"
+        },
+        "lang.english": {
+            "en-US": "English",
+            "ja-JP": "英語"
+        },
+        "app.usermanagement.basicInfo.title.user": {
+            "en-US": "USER",
+            "ja-JP": "ユーザー"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.benefit-type": {
+            "en-US": "Benefit Type",
+            "ja-JP": "給付金 の種類"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.assessor-override-days": {
+            "en-US": "Assessor Override Days",
+            "ja-JP": "調整支払日数"
+        },
+        "app.navigator.drawer.360.tabs.remark": {
+            "en-US": "REMARK",
+            "ja-JP": "備考"
+        },
+        "app.usermanagement.basicInfo.label.organization.reportTo": {
+            "en-US": "Report to",
+            "ja-JP": "に報告する"
+        },
+        "app.navigator.task-detail-of-data-capture.label.benefit-type": {
+            "en-US": "Benefit Type",
+            "ja-JP": "給付金種類"
+        },
+        "app.navigator.task-detail-of-data-capture.label.procedure-code2": {
+            "en-US": "Procedure Code",
+            "ja-JP": "治療の種類"
+        },
+        "app.navigator.task-detail-of-data-capture.label.assessor-override-amount": {
+            "en-US": "Assessor Override Amount",
+            "ja-JP": "調整給付金"
+        },
+        "component.tableSearch.choose": {
+            "en-US": "{count} items of choosed",
+            "ja-JP": "{count} 選択されましたアイテム"
+        },
+        "app.navigator.caseDetail.case-progress": {
+            "en-US": "Case Progress",
+            "ja-JP": "Case Progress"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.total-payment-amount": {
+            "en-US": "Total Payment Amount",
+            "ja-JP": "実際の支払金"
+        },
+        "app.navigator.drawer.aiCircle.click-here-to-check": {
+            "en-US": "Click here to Check",
+            "ja-JP": "ここをクリックでチェックできる"
+        },
+        "app.navigator.drawer.pending.title": {
+            "en-US": "PENDING MANAGEMENT",
+            "ja-JP": "処理待ち管理案件"
+        },
+        "app.navigator.drawer.remark.label.information-content": {
+            "en-US": "Information Content",
+            "ja-JP": "情報内容"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-code": {
+            "en-US": "Diagnosis Code",
+            "ja-JP": "ICD-10コード"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.assessor-override-amount": {
+            "en-US": "Assessor Override Amount ",
+            "ja-JP": "評価者オーバーライド金額"
+        },
+        "app.usermanagement.basicInfo.label.organization.positionLevel": {
+            "en-US": "Position Level",
+            "ja-JP": "位置レベル"
+        },
+        "time.format.second": {
+            "en-US": "Second",
+            "ja-JP": "秒"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.benefit-item": {
+            "en-US": "Benefit Item",
+            "ja-JP": "支払い内容"
+        },
+        "app.usermanagement.basicInfo.hander.add": {
+            "en-US": "add",
+            "ja-JP": "増加"
+        },
+        "app.organization.creationDate": {
+            "en-US": "Creation Date",
+            "ja-JP": "創立日時"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.beneficiary-identity-type": {
+            "en-US": "Beneficiary Identity Type",
+            "ja-JP": "受益者身分タイプ"
+        },
+        "app.navigator.drawer.remark.title.historical-records": {
+            "en-US": "Historical Records",
+            "ja-JP": "歴史記録"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.reimbursement-percentage": {
+            "en-US": "Reimbursement Percentage",
+            "ja-JP": "払い戻しの割合"
+        },
+        "app.navigator.task-detail-of-data-capture.label.expense-unit": {
+            "en-US": "Expense/Unit",
+            "ja-JP": "経費/単位"
+        },
+        "app.navigator.index.mode.table": {
+            "en-US": "Table",
+            "ja-JP": "テーブル"
+        },
+        "app.usermanagement.basicInfo.label.relationship": {
+            "en-US": "Relationship",
+            "ja-JP": "関係"
+        },
+        "app.navigator.index.mode.table.title.batchNo": {
+            "en-US": "Batch Number",
+            "ja-JP": "バッチ番号"
+        },
+        "app.usermanagement.basicInfo.label.female": {
+            "en-US": "Female",
+            "ja-JP": "女性"
+        },
+        "app.usermanagement.basicInfo.label.skill.workingYears": {
+            "en-US": "Working Years",
+            "ja-JP": "仕事年数"
+        },
+        "app.organization.effectiveDate": {
+            "en-US": "Effective Date",
+            "ja-JP": "有効期間"
+        },
+        "app.navigator.inquire.filters.batch-no": {
+            "en-US": "Batch No.",
+            "ja-JP": "バッチナンバー"
+        },
+        "app.navigator.index.mode.table.title.priority": {
+            "en-US": "priority",
+            "ja-JP": "優先"
+        },
+        "menu.home": {
+            "en-US": "Home",
+            "ja-JP": "ホーム"
+        },
+        "time.format.year": {
+            "en-US": "Year",
+            "ja-JP": "年"
+        },
+        "app.navigator.caseDetail.label.client-code": {
+            "en-US": "Client Code",
+            "ja-JP": "お客様コード"
+        },
+        "app.navigator.taskDetail.inquireForm.label.insured-last-name": {
+            "en-US": "Insured Last Name",
+            "ja-JP": "被保険者下の名前"
+        },
+        "app.navigator.drawer.pending.form.title.second-reminder-on-the": {
+            "en-US": "Second Reminder on the",
+            "ja-JP": "二回目のリマインド"
+        },
+        "app.navigator.index.mode.flow.detail.error-adminHandle": {
+            "en-US": "Admin is handling",
+            "ja-JP": "Admin is handling"
+        },
+        "app.navigator.taskDetail.inquireForm.label.user-id": {
+            "en-US": "User ID",
+            "ja-JP": "ユーザーID"
+        },
+        "app.navigator.index.mode.flow.favourite": {
+            "en-US": "Favourite",
+            "ja-JP": "お気に入り"
+        },
+        "app.organization.level": {
+            "en-US": "Organization Level",
+            "ja-JP": "組織レベル"
+        },
+        "app.usermanagement.basicInfo.label.skill.educationLevel": {
+            "en-US": "Education Level",
+            "ja-JP": "教育レベル"
+        },
+        "app.navigator.drawer.remark.label.title.information-relate-to": {
+            "en-US": "Information relate to",
+            "ja-JP": "情報関連"
+        },
+        "app.usermanagement.basicInfo.certificate-name": {
+            "en-US": "Certificate Name",
+            "ja-JP": "証明書 名前"
+        },
+        "app.navigator.index.mode.flow.advanced-search": {
+            "en-US": "ADVANCED SEARCH",
+            "ja-JP": "詳細検索"
+        },
+        "app.navigator.drawer.pending.title.pending-to": {
+            "en-US": "Pending to",
+            "ja-JP": "保留中"
+        },
+        "app.usermanagement.permission.module-name": {
+            "en-US": "Module Name",
+            "ja-JP": "モジュール名"
+        },
+        "app.usermanagement.basicInfo.label.theme-light": {
+            "en-US": "Light",
+            "ja-JP": "明るい"
+        },
+        "app.navigator.task-detail-of-data-capture.status.pending": {
+            "en-US": "PENDING",
+            "ja-JP": "保留中"
+        },
+        "app.navigator.caseDetail.label.policy-name": {
+            "en-US": "Policy Name",
+            "ja-JP": "ポリシー名前"
+        },
+        "app.navigator.task-detail-of-data-capture.label.submission-date": {
+            "en-US": "Submission Date",
+            "ja-JP": "提出日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.expense": {
+            "en-US": "Expense",
+            "ja-JP": "被治療者負担費用"
+        },
+        "app.navigator.drawer.remark.label.insure-no": {
+            "en-US": "Insure No.",
+            "ja-JP": "保険なし"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.bank-account-no": {
+            "en-US": "Bank Account No.",
+            "ja-JP": "口座番号"
+        },
+        "time.format.minute": {
+            "en-US": "Minute",
+            "ja-JP": "分"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-appeal": {
+            "en-US": "Claim Appeal",
+            "ja-JP": "クレーム申し立て"
+        },
+        "app.navigator.task-detail-of-data-capture.label.date-of-incident": {
+            "en-US": "Date Of Incident",
+            "ja-JP": "事故日"
+        },
+        "menu.navigator": {
+            "en-US": "workspace",
+            "ja-JP": "ワークスペース"
+        },
+        "app.navigator.task-detail-of-data-capture.label.reimbursement-percentage": {
+            "en-US": "Reimbursement Percentage",
+            "ja-JP": "倍率"
+        },
+        "app.navigator.caseDetail.table-column.completed-time": {
+            "en-US": "Completed Time",
+            "ja-JP": "完了日付"
+        },
+        "app.navigator.task-detail-of-data-capture.label.claim-no": {
+            "en-US": "Claim No.",
+            "ja-JP": "請求番号"
+        },
+        "app.navigator.drawer.360.tabs.benefit.accumulated-visits": {
+            "en-US": "Accumulated Visits",
+            "ja-JP": "累計訪問数"
+        },
+        "app.navigator.task-detail-of-data-capture.title": {
+            "en-US": "INCIDENT INFORMATION",
+            "ja-JP": "支払查定"
+        },
+        "app.usermanagement.permission.control-value": {
+            "en-US": "Control Value",
+            "ja-JP": "コントロール価値"
+        },
+        "app.usermanagement.basicInfo.table.tag.qulification": {
+            "en-US": "Qulification",
+            "ja-JP": "資格"
+        },
+        "app.navigator.drawer.pending.form.label.Resolve": {
+            "en-US": "Resolve",
+            "ja-JP": "解決"
+        },
+        "app.navigator.task-detail-of-data-capture.title.insured-information": {
+            "en-US": "Insured Information",
+            "ja-JP": "被保険者"
+        },
+        "app.navigator.taskDetail.inquireForm.label.auto-assessment": {
+            "en-US": "Auto Assessment",
+            "ja-JP": "自動評価"
+        },
+        "app.navigator.task-detail-of-data-capture.label.item": {
+            "en-US": "Item",
+            "ja-JP": "アイテム"
+        },
+        "app.usermanagement.basicInfo.label.occupation": {
+            "en-US": "Occupation",
+            "ja-JP": "職業"
+        },
+        "app.navigator.taskDetail.inquireForm.label.sla": {
+            "en-US": "SLA",
+            "ja-JP": "SLA"
+        },
+        "form.operate": {
+            "en-US": "operate",
+            "ja-JP": "操作"
+        },
+        "app.navigator.drawer.pending.form.label.Waived": {
+            "en-US": "Waived",
+            "ja-JP": "諦める"
+        },
+        "app.navigator.drawer.pending.label.claimant": {
+            "en-US": "Claimant",
+            "ja-JP": "請求者"
+        },
+        "app.navigator.drawer.remark.title.add-new-record": {
+            "en-US": "Add New Record",
+            "ja-JP": "新しい記録を追加"
+        },
+        "layout.workspace-user-login.link.privacy": {
+            "en-US": "Privacy",
+            "ja-JP": "プライベシー"
+        },
+        "app.navigator.index.mode.table.title.next": {
+            "en-US": "Next",
+            "ja-JP": "次"
+        },
+        "app.navigator.drawer.remark.tab.policy": {
+            "en-US": "POLICY",
+            "ja-JP": "ポリシー"
+        },
+        "app.usermanagement.basicInfo.avatar.status": {
+            "en-US": "Status",
+            "ja-JP": "ステータス"
+        },
+        "app.remark.validate.error": {
+            "en-US": "Validate failed",
+            "ja-JP": "検証失敗"
+        },
+        "app.navigator.task-detail-of-data-capture.label.relationship-width-insured": {
+            "en-US": "Relationship With Insured",
+            "ja-JP": "被保険者との関係"
+        },
+        "app.navigator.drawer.pending.label.pending-type": {
+            "en-US": "Pending Type",
+            "ja-JP": "保留タイプ"
+        },
+        "app.navigator.taskDetail.inquireForm.label.dob": {
+            "en-US": "DOB",
+            "ja-JP": "誕生日"
+        },
+        "app.navigator.taskDetail.inquireForm.label.days": {
+            "en-US": "Days",
+            "ja-JP": "日数"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-name": {
+            "en-US": "Diagnosis Name",
+            "ja-JP": "傷病名"
+        },
+        "app.navigator.task-detail-of-data-capture.label.from-date-v2": {
+            "en-US": "From date",
+            "ja-JP": "治療の実施開始日"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.date-of-incident": {
+            "en-US": "Date Of Incident",
+            "ja-JP": "事故発生年月日"
+        },
+        "app.navigator.inquire.tab.case": {
+            "en-US": "Case",
+            "ja-JP": "案件"
+        },
+        "app.usermanagement.basicInfo.label.male": {
+            "en-US": "Male",
+            "ja-JP": "男性"
+        },
+        "app.navigator.caseDetail.title": {
+            "en-US": "CASE MANAGEMENT",
+            "ja-JP": "案件管理"
+        },
+        "app.navigator.task-detail-of-data-capture.label.requirement-no": {
+            "en-US": "Requirement No.",
+            "ja-JP": "事故受付号"
+        },
+        "app.navigator.task-detail-of-data-capture.label.form-date": {
+            "en-US": "From Date",
+            "ja-JP": "開始日"
+        },
+        "app.navigator.caseDetail.label.policy-code": {
+            "en-US": "Policy Code",
+            "ja-JP": "ポリシーコード"
+        },
+        "form.cancel": {
+            "en-US": "cancel",
+            "ja-JP": "キャンセル"
+        },
+        "app.navigator.caseDetail.label.client-name": {
+            "en-US": "Client Name",
+            "ja-JP": "お客様の名前"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.payee-identity-type": {
+            "en-US": "Payee Identity Type",
+            "ja-JP": "受益者身分タイプ"
+        },
+        "component.tableSearch.moreOperator": {
+            "en-US": "more",
+            "ja-JP": "もっと"
+        },
+        "component.tableSearch.total": {
+            "en-US": "Total",
+            "ja-JP": "総計"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.policy-type": {
+            "en-US": "Policy Type",
+            "ja-JP": "証券の種類"
+        },
+        "app.navigator.taskDetail.inquireForm.label.all": {
+            "en-US": "All",
+            "ja-JP": "全部"
+        },
+        "app.chat.status.error": {
+            "en-US": "Change failed",
+            "ja-JP": "変更失敗"
+        },
+        "app.usermanagement.permission.permission-group": {
+            "en-US": "Permission Group",
+            "ja-JP": "許可グループ"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.benefit-amount": {
+            "en-US": "Benefit Amount",
+            "ja-JP": "给付金"
+        },
+        "app.usermanagement.basicInfo.label.landline": {
+            "en-US": "Landline",
+            "ja-JP": "固定電話"
+        },
+        "components.calculation.benefitAmount": {
+            "en-US": "Benefit Amount",
+            "ja-JP": "メリット金額"
+        },
+        "app.navigator.task-detail-of-data-capture.label.female": {
+            "en-US": "female",
+            "ja-JP": "女性"
+        },
+        "form.date.label": {
+            "en-US": "Start and end date",
+            "ja-JP": "開始日と終了日"
+        },
+        "app.navigator.task-detail-of-data-capture.label.from-date": {
+            "en-US": "From date",
+            "ja-JP": "開始日"
+        },
+        "app.navigator.taskDetail.inquireForm.tab.task": {
+            "en-US": "Task",
+            "ja-JP": "タスク"
+        },
+        "app.usermanagement.basicInfo.label.home-address": {
+            "en-US": "Home Address",
+            "ja-JP": "ホームアドレス"
+        },
+        "app.usermanagement.permission.control-limit": {
+            "en-US": "Control Limit",
+            "ja-JP": "コントロールリミット"
+        },
+        "app.remark.reject.error": {
+            "en-US": "Reject failed",
+            "ja-JP": "断り失敗"
+        },
+        "app.remark.linkto": {
+            "en-US": "LINK TO",
+            "ja-JP": "リンク先"
+        },
+        "app.navigator.taskDetail.inquireForm.label.urgent-flag": {
+            "en-US": "Urgent Flag",
+            "ja-JP": "緊急マーク"
+        },
+        "app.navigator.task-detail-of-data-capture.label.department-of-treatment": {
+            "en-US": "Department Of Treatment",
+            "ja-JP": "治療分野"
+        },
+        "app.navigator.taskDetail.inquireForm.label.payment-amount": {
+            "en-US": "Payment Amount",
+            "ja-JP": "支払金額"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.product": {
+            "en-US": "Product",
+            "ja-JP": "商品"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.titel.policy-benefit": {
+            "en-US": "Policy Benefit",
+            "ja-JP": "受取人"
+        },
+        "app.navigator.task-detail-of-data-capture.title.diagnosis-information": {
+            "en-US": "Diagnosis Information",
+            "ja-JP": "診断情報"
+        },
+        "app.navigator.drawer.aiCircle.how-are-you-today": {
+            "en-US": "How are you today",
+            "ja-JP": "今日はお元気でしょうか"
+        },
+        "app.usermanagement.basicInfo.label.last-name": {
+            "en-US": "Last Name",
+            "ja-JP": "下の名前"
+        },
+        "app.navigator.index.mode.card": {
+            "en-US": "Card",
+            "ja-JP": "カード"
+        },
+        "app.navigator.drawer.pending.title.pending-for": {
+            "en-US": "Pending for",
+            "ja-JP": "保留中"
+        },
+        "app.navigator.inquire.filters.creation-date": {
+            "en-US": "Creation Date",
+            "ja-JP": "作成日"
+        },
+        "app.navigator.drawer.aiCircle.title": {
+            "en-US": "SMART CIRCLE",
+            "ja-JP": "スマートサークル"
+        },
+        "app.navigator.index.mode.flow.task-status": {
+            "en-US": "TASK STATUS",
+            "ja-JP": "タスク　ステータス"
+        },
+        "app.navigator.task-detail-of-data-capture.label.procedure-type": {
+            "en-US": "Procedure Type",
+            "ja-JP": "放射線治療/先進医療"
+        },
+        "app.navigator.task-detail-of-quality-control.title.quality-control": {
+            "en-US": "QUALITY CONTROL",
+            "ja-JP": "品質管理"
+        },
+        "app.navigator.caseDetail.find-relationship": {
+            "en-US": "Find Relationship",
+            "ja-JP": "Find Relationship"
+        },
+        "app.navigator.inquire.filters.employment-date": {
+            "en-US": "Employment Date",
+            "ja-JP": "就業日時"
+        },
+        "app.navigator.taskDetail.inquireForm.label.pending": {
+            "en-US": "Pending",
+            "ja-JP": "保留中"
+        },
+        "app.navigator.task-detail-of-data-capture.label.invoice-no": {
+            "en-US": "Invoice No.",
+            "ja-JP": "請求書番号"
+        },
+        "app.navigator.taskDetail.inquireForm.label.batch-no": {
+            "en-US": "Batch No.",
+            "ja-JP": "バッチ番号"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.relationship-with-payee": {
+            "en-US": "Relationship With Payee",
+            "ja-JP": "受取人との関係"
+        },
+        "app.navigator.taskDetail.inquireForm.label.remaining-time": {
+            "en-US": "Remaining Time",
+            "ja-JP": "残り時間"
+        },
+        "app.usermanagement.basicInfo.label.organization.titleLevel": {
+            "en-US": "Title Level",
+            "ja-JP": "タイトルレベル"
+        },
+        "app.navigator.drawer.360.tabs.claim": {
+            "en-US": "CLAIM",
+            "ja-JP": "クレーム"
+        },
+        "app.navigator.taskDetail.inquireForm.label.claim-no": {
+            "en-US": "Claim No.",
+            "ja-JP": "クレーム番号"
+        },
+        "app.usermanagement.permission.common-function": {
+            "en-US": "Common Function",
+            "ja-JP": "共有機能"
+        },
+        "app.navigator.drawer.360.tabs.benefit.accumulated-days": {
+            "en-US": "Accumulated Days",
+            "ja-JP": "累計日数"
+        },
+        "app.usermanagement.permission.data-masking": {
+            "en-US": "Data Masking",
+            "ja-JP": "データマスキング"
+        },
+        "app.navigator.index.mode.table.title.caseNumber": {
+            "en-US": "Case Number",
+            "ja-JP": "案件番号"
+        },
+        "app.navigator.task-detail-of-data-capture.title.policy-information": {
+            "en-US": "Policy Information",
+            "ja-JP": "契約情報"
+        },
+        "app.navigator.task-detail-of-data-capture.label.submission-channel": {
+            "en-US": "Submission Channel",
+            "ja-JP": "提出チャンネル"
+        },
+        "app.navigator.task-detail-of-data-capture.label.procedure-item": {
+            "en-US": "Procedure Item",
+            "ja-JP": "治療の種類"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.assessment-remark": {
+            "en-US": "Assessment Remark",
+            "ja-JP": "評価備考"
+        },
+        "app.organization.code": {
+            "en-US": "Organization Code",
+            "ja-JP": "組織コード"
+        },
+        "app.remark.save.success": {
+            "en-US": "Save successful",
+            "ja-JP": " 保存完了"
+        },
+        "app.organization.lastUpdateDate": {
+            "en-US": "Last Update Date",
+            "ja-JP": "最新アップデート日時"
+        },
+        "app.usermanagement.basicInfo.label.skill.setting-date": {
+            "en-US": "Setting Date",
+            "ja-JP": "作成日"
+        },
+        "app.usermanagement.permission.transaction-limit": {
+            "en-US": "Transaction Limit",
+            "ja-JP": "貿易リミット"
+        },
+        "app.usermanagement.basicInfo.avatar.fund-point": {
+            "en-US": "Fund Point",
+            "ja-JP": "基金ポイント"
+        },
+        "app.navigator.drawer.pending.title.mailCode": {
+            "en-US": "MailCode",
+            "ja-JP": "メールコード"
+        },
+        "app.navigator.task-detail-of-data-capture.title.service-information": {
+            "en-US": "Service Information",
+            "ja-JP": "サービス情報"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.radiotherapy-category": {
+            "en-US": "Radiotherapy Category",
+            "ja-JP": "区分"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.payable-days": {
+            "en-US": "Payable Days",
+            "ja-JP": "支払日数"
+        },
+        "app.usermanagement.basicInfo.label.fax-no": {
+            "en-US": "Fax No.",
+            "ja-JP": "ファクス番号"
+        },
+        "app.management.user.name": {
+            "en-US": "User Name",
+            "ja-JP": "ユーザー名前"
+        },
+        "app.navigator.taskDetail.inquireForm.label.completed-time": {
+            "en-US": "Due Date",
+            "ja-JP": "締切日"
+        },
+        "form.title.placeholder": {
+            "en-US": "Give the target a name",
+            "ja-JP": "ターゲットに名前を付ける"
+        },
+        "app.usermanagement.basicInfo.label.emergency-contact-no": {
+            "en-US": "Emergency Contact No.",
+            "ja-JP": "緊急連絡電話番号"
+        },
+        "app.navigator.task-detail.title.claim-approve": {
+            "en-US": "CLAIM APPROVE",
+            "ja-JP": "クレーム許可"
+        },
+        "app.navigator.taskDetail.inquireForm.label.insured-first-name": {
+            "en-US": "Insured First Name",
+            "ja-JP": "被保険者名前"
+        },
+        "app.organization.expiredDate": {
+            "en-US": "Expired Date",
+            "ja-JP": "失効期間"
+        },
+        "app.remark.save.error": {
+            "en-US": "Save failed",
+            "ja-JP": "保存失敗"
+        },
+        "app.navigator.taskDetail.inquireForm.title.rule-category": {
+            "en-US": "Rule Category",
+            "ja-JP": "ルールカテゴリー"
+        },
+        "app.navigator.task-detail-of-data-capture.label.department": {
+            "en-US": "Department",
+            "ja-JP": "分野"
+        },
+        "app.navigator.task-detail-of-data-capture.label.bank-account-no": {
+            "en-US": "Bank Account No.",
+            "ja-JP": "銀行口座番号"
+        },
+        "app.navigator.caseDetail.label.sla-level": {
+            "en-US": "SLA Level",
+            "ja-JP": "SLA レベル（サービスレベル協議）"
+        },
+        "app.navigator.task-detail-of-data-capture.label.medical-provider": {
+            "en-US": "Medical Provider",
+            "ja-JP": "病院名"
+        },
+        "app.navigator.drawer.aiCircle.hi": {
+            "en-US": "Hi",
+            "ja-JP": "こんにちは"
+        },
+        "app.navigator.drawer.pending.label.assessment-team-leader": {
+            "en-US": "Assessment Team Leader",
+            "ja-JP": "査定組リーダー"
+        },
+        "app.navigator.task-detail-of-data-capture.label.kj-code": {
+            "en-US": "K/J Code",
+            "ja-JP": "K/Jコード"
+        },
+        "app.login.login": {
+            "en-US": "Login",
+            "ja-JP": "ログイン"
+        },
+        "app.remark.delete.error": {
+            "en-US": "removed failed",
+            "ja-JP": "削除失敗"
+        },
+        "lang.japanese": {
+            "en-US": "Japanese",
+            "ja-JP": "日本語"
+        },
+        "app.navigator.task-detail-of-data-capture.label.surname": {
+            "en-US": "Surname",
+            "ja-JP": "苗字"
+        },
+        "app.usermanagement.basicInfo.title.default-mode": {
+            "en-US": "Default Mode",
+            "ja-JP": "デフォルトモード"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.claim-decision": {
+            "en-US": "Claim Decision",
+            "ja-JP": "クレーム結果"
+        },
+        "app.usermanagement.basicInfo.label.theme-dark": {
+            "en-US": "Dark",
+            "ja-JP": "暗い"
+        },
+        "layout.workspace-user-login.link.terms": {
+            "en-US": "Terms",
+            "ja-JP": "条項"
+        },
+        "app.navigator.task-detail-of-data-capture.label.post-code": {
+            "en-US": "Postcode",
+            "ja-JP": "郵便番号"
+        },
+        "app.navigator.task-detail-of-data-capture.title.invoice": {
+            "en-US": "Invoice",
+            "ja-JP": "請求書"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.bank-account-name": {
+            "en-US": "Bank Account Name",
+            "ja-JP": "銀行名"
+        },
+        "app.navigator.task-detail-of-data-capture.label.critical-illness-indicator": {
+            "en-US": "Critical Illness Indicator",
+            "ja-JP": "重大疾病指標"
+        },
+        "app.navigator.taskDetail.inquireForm.label.case-due-date": {
+            "en-US": "Case Due Date",
+            "ja-JP": "案件締切日"
+        },
+        "menu.account.center": {
+            "en-US": "Account Center",
+            "ja-JP": "アカウントセンター"
+        },
+        "app.navigator.caseDetail.end-case": {
+            "en-US": "END CASE",
+            "ja-JP": "案件終了"
+        },
+        "form.confirm": {
+            "en-US": "confirm",
+            "ja-JP": "確認"
+        },
+        "app.navigator.taskDetail.inquireForm.title.rule-setup": {
+            "en-US": "Rule Setup",
+            "ja-JP": "規則設定"
+        },
+        "time.format.hour": {
+            "en-US": "Hour",
+            "ja-JP": "時"
+        },
+        "app.navigator.task-detail-of-data-capture.label.doctor": {
+            "en-US": "Doctor",
+            "ja-JP": "医者"
+        },
+        "app.usermanagement.basicInfo.label.email-address": {
+            "en-US": "Email Address",
+            "ja-JP": "Eメールアドレス"
+        },
+        "app.navigator.drawer.pending.clarification-with-customer": {
+            "en-US": "Clarification with Customer",
+            "ja-JP": "説明"
+        },
+        "app.navigator.taskDetail.inquireForm.label.close-date": {
+            "en-US": "Close Date",
+            "ja-JP": "終了日"
+        },
+        "app.navigator.inquire.table-column.ext-no": {
+            "en-US": "Ext. No.",
+            "ja-JP": "内線番号."
+        },
+        "app.navigator.caseDetail.system": {
+            "en-US": "SYSTEM",
+            "ja-JP": "システム"
+        },
+        "app.navigator.task-detail-of-claim-assessment.payee.titel.payee-list": {
+            "en-US": "Payee List",
+            "ja-JP": "支払送金先"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-code-name": {
+            "en-US": "Diagnosis Code / Name",
+            "ja-JP": "診断コード / 名前"
+        },
+        "component.noticeIcon.empty": {
+            "en-US": "No Data",
+            "ja-JP": "データなし"
+        },
+        "app.navigator.index.mode.table.title.insuredName": {
+            "en-US": "Insured Name",
+            "ja-JP": "保険名前"
+        },
+        "app.navigator.inquire.table-column.operate": {
+            "en-US": "Operate",
+            "ja-JP": "操作"
+        },
+        "app.navigator.task-detail-of-data-capture.label.intensive-care-unit": {
+            "en-US": "Intensive Care Unit",
+            "ja-JP": "集中治療室"
+        },
+        "app.navigator.task-detail-of-claim-assessment.beneficiary.label.beneficiary-identity-no": {
+            "en-US": "Beneficiary Identity No.",
+            "ja-JP": "受益者身分ナンバー"
+        },
+        "app.navigator.index.mode.flow.detail.overdue": {
+            "en-US": "OVERDUE",
+            "ja-JP": "OVERDUE "
+        },
+        "app.navigator.task-detail-of-data-capture.label.incident-date": {
+            "en-US": "Incident Date",
+            "ja-JP": "事件日付"
+        },
+        "form.optional": {
+            "en-US": " (optional) ",
+            "ja-JP": " (オプション) "
+        },
+        "app.navigator.task-detail-of-data-capture.title.service-item": {
+            "en-US": "Service Item",
+            "ja-JP": "サービスアイテム"
+        },
+        "app.usermanagement.customization.title  ": {
+            "en-US": "Customization",
+            "ja-JP": "カスタム化"
+        },
+        "app.navigator.task-detail-of-data-capture.label.submission-time": {
+            "en-US": "Submission Time",
+            "ja-JP": "提出日付"
+        },
+        "app.navigator.task-detail-of-claim-assessment.title.claim-assessment": {
+            "en-US": "CLAIM ASSESSMENT",
+            "ja-JP": "クレーム評価"
+        },
+        "app.navigator.index.mode.flow.detail.error-occurredTime": {
+            "en-US": "Occurred Time",
+            "ja-JP": "Occurred Time "
+        },
+        "app.navigator.task-detail-of-data-capture.label.procedure-name": {
+            "en-US": "Procedure Name",
+            "ja-JP": "手術名"
+        },
+        "app.navigator.caseDetail.flowable.claim-approve": {
+            "en-US": "Claim Approve",
+            "ja-JP": "クレーム承認"
+        },
+        "app.navigator.task-detail-of-data-capture.label.adjust-days": {
+            "en-US": "Adjust days",
+            "ja-JP": "調整支払日数"
+        },
+        "form.from": {
+            "en-US": "from",
+            "ja-JP": "から"
+        },
+        "app.navigator.task-detail-of-data-capture.label.disability-identification-date": {
+            "en-US": "Disability Identification Date",
+            "ja-JP": "被害認定日付"
+        },
+        "app.navigator.taskDetail.inquireForm.label.insured-identity-no": {
+            "en-US": "Insured Identity No.",
+            "ja-JP": "被保険者身分番号"
+        },
+        "app.usermanagement.basicInfo.basic-info": {
+            "en-US": "Basic Info",
+            "ja-JP": "基本情報"
+        },
+        "app.navigator.task-detail-of-data-capture.title.diagnosis": {
+            "en-US": "Diagnosis",
+            "ja-JP": "診断"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.payables-type": {
+            "en-US": "Payables Type",
+            "ja-JP": "給付金の種類"
+        },
+        "app.navigator.task-detail-of-data-capture.label.incident-place": {
+            "en-US": "Incident Place",
+            "ja-JP": "事故場所"
+        },
+        "app.navigator.task-detail-of-data-capture.label.claimant": {
+            "en-US": "Claimant",
+            "ja-JP": "報告者"
+        },
+        "app.navigator.task-detail-of-data-capture.label.insured-type": {
+            "en-US": "Insured Type",
+            "ja-JP": "対象者"
+        },
+        "layout.workspace-user-login.copyright": {
+            "en-US": "Copyright {copyrightIcon} {currentYear} Produced by FWD TECH",
+            "ja-JP": "著作権 {copyrightIcon} {currentYear} プロデュース by FWD TECH"
+        },
+        "app.usermanagement.basicInfo.certificate.result": {
+            "en-US": "Result",
+            "ja-JP": "結果"
+        },
+        "app.login.tab-login-credentials": {
+            "en-US": "Credentials",
+            "ja-JP": "登録"
+        },
+        "app.navigator.task-detail-of-data-capture.label.diagnosis-type": {
+            "en-US": "Diagnosis Type",
+            "ja-JP": "診断タイプ"
+        },
+        "app.navigator.taskDetail.inquireForm.label.completed": {
+            "en-US": "Completed",
+            "ja-JP": "完了"
+        },
+        "app.usermanagement.permission.process": {
+            "en-US": "Process",
+            "ja-JP": "プロセス"
+        },
+        "app.navigator.caseDetail.table-column.meet-task-sla": {
+            "en-US": "Meet Task SLA",
+            "ja-JP": "ミートタスクSLA"
+        },
+        "component.tableSearch.expand": {
+            "en-US": "Expand",
+            "ja-JP": "拡大"
+        },
+        "app.navigator.index.mode.card.case-no": {
+            "en-US": "Case no",
+            "ja-JP": "案件番号"
+        },
+        "app.organization.desc": {
+            "en-US": "Descriptioin",
+            "ja-JP": "説明"
+        },
+        "app.organization.name": {
+            "en-US": "Organization Name",
+            "ja-JP": "機関名"
+        },
+        "app.navigator.task-detail-of-data-capture.title.incident": {
+            "en-US": "Incident",
+            "ja-JP": "事故"
+        },
+        "app.usermanagement.basicInfo.certificate-type": {
+            "en-US": "Certificate Type",
+            "ja-JP": "証明書 タイプ"
+        },
+        "app.usermanagement.basicInfo.label.emergency-contact-person": {
+            "en-US": "Emergency Contact Person",
+            "ja-JP": "緊急連絡先"
+        },
+        "app.navigator.task-detail-of-data-capture.title.payee-information": {
+            "en-US": "Payee Information",
+            "ja-JP": "受取人情報"
+        },
+        "app.remark.submit.error": {
+            "en-US": "Submit failed",
+            "ja-JP": "提出失敗"
+        },
+        "app.remark.caseNo.illegal": {
+            "en-US": "This caseNo is illegal",
+            "ja-JP": "この案件ナンバーは非法"
+        },
+        "app.navigator.task-detail-of-data-capture.label.part-of-body": {
+            "en-US": "Part of body",
+            "ja-JP": "部位"
+        },
+        "app.navigator.caseDetail.table-column.creation-time": {
+            "en-US": "Creation Time",
+            "ja-JP": "作成日付"
+        },
+        "app.navigator.task-detail-of-claim-assessment.title.assessment-information": {
+            "en-US": "ASSESSMENT INFORMATION",
+            "ja-JP": "評価情報"
+        },
+        "app.organization.createdBy": {
+            "en-US": "Created By",
+            "ja-JP": "創立者"
+        },
+        "app.navigator.task-detail-of-data-capture.label.invoice-date": {
+            "en-US": "Invoice Date",
+            "ja-JP": "請求書日付"
+        },
+        "app.usermanagement.basicInfo.label.organization.position": {
+            "en-US": "Position",
+            "ja-JP": "位置"
+        },
+        "app.navigator.index.mode.table.title.activityName": {
+            "en-US": "Activity Name",
+            "ja-JP": "活動名前"
+        },
+        "app.navigator.task-detail-of-claim-assessment.label.corporation": {
+            "en-US": "Corporation",
+            "ja-JP": "法人"
+        },
+        "app.navigator.drawer.360.tabs.benefit": {
+            "en-US": "BENEFIT",
+            "ja-JP": "メリット"
+        },
+        "app.navigator.caseDetail.label.case-sla-used-time": {
+            "en-US": "Case SLA Used Time",
+            "ja-JP": "SLA案件使用時間"
+        },
+        "app.usermanagement.basicInfo.hander.save": {
+            "en-US": "SAVE",
+            "ja-JP": "保存"
+        },
+        "app.navigator.task-detail-of-data-capture.label.relationship-with-insured": {
+            "en-US": "Relationship With Insured",
+            "ja-JP": "申出者"
+        },
+        "app.usermanagement.submit.success": {
+            "en-US": "submit success!",
+            "ja-JP": "提出成功！"
+        },
+        "app.navigator.taskDetail.inquireForm.label.to-do": {
+            "en-US": "To Do",
+            "ja-JP": "やります"
+        },
+        "app.exception.back": {
+            "en-US": "Back to home",
+            "ja-JP": "ホームに戻る"
+        }
+    },
+    "message": {
+        "app.navigator.drawer.messager.search.contact-history": {
+            "en-US": "Contact History",
+            "ja-JP": "連絡履歴"
+        },
+        "app.navigator.drawer.messager.search.chat-history": {
+            "en-US": "Chat History",
+            "ja-JP": "チャット履歴"
+        },
+        "app.navigator.drawer.messager.status.leave": {
+            "en-US": "Away",
+            "ja-JP": "不在"
+        },
+        "app.navigator.drawer.messager.search.history": {
+            "en-US": "History",
+            "ja-JP": "履歴"
+        },
+        "app.navigator.drawer.messager.title.good-day": {
+            "en-US": "Good day!",
+            "ja-JP": "良い日を一日！"
+        },
+        "app.navigator.drawer.messager.msg-assign-task-error": {
+            "en-US": "AssignTask Error",
+            "ja-JP": "タスク分配ミス"
+        },
+        "app.navigator.drawer.messager.notifications.new": {
+            "en-US": "NotificationNew",
+            "ja-JP": "新しい通知"
+        },
+        "app.navigator.drawer.messager.status.offline": {
+            "en-US": "Offline",
+            "ja-JP": "オフライン"
+        },
+        "app.navigator.drawer.remark.msg.you-have-no-authority-to-check-the-information-of-this-case": {
+            "en-US": "You have no authority to check the information of this case",
+            "ja-JP": "この案件情報を確認権限なし"
+        },
+        "app.navigator.drawer.messager.search": {
+            "en-US": "SEARCH",
+            "ja-JP": "リサーチ"
+        },
+        "app.login.validation.password.required": {
+            "en-US": "Please enter password!",
+            "ja-JP": "パスワードを入力ください"
+        },
+        "app.navigator.taskDetail.inquireForm.label.activity-name-hint-words": {
+            "en-US": "Please select case category option first!",
+            "ja-JP": "Please select case category option first!"
+        },
+        "app.navigator.drawer.pending.title.message": {
+            "en-US": "MESSAGE",
+            "ja-JP": "メッセージ"
+        },
+        "app.navigator.drawer.messager.notifications.no": {
+            "en-US": "No Notifications",
+            "ja-JP": "通知なし"
+        },
+        "app.navigator.drawer.messager.contact.title": {
+            "en-US": "Contact",
+            "ja-JP": "連絡"
+        },
+        "app.navigator.drawer.messager.title.may-be-you-need-other-options": {
+            "en-US": "May be you need other options",
+            "ja-JP": "他のオプションを必要かもしれない"
+        },
+        "app.navigator.drawer.messager.search.back": {
+            "en-US": "BACK",
+            "ja-JP": "バック"
+        },
+        "app.navigator.drawer.messager.status.meeting": {
+            "en-US": "Busy",
+            "ja-JP": "忙しい中"
+        },
+        "app.login.message-invalid-credentials": {
+            "en-US": "Invalid username or password",
+            "ja-JP": "ユーザー名あるいはパスワードは無効"
+        },
+        "app.navigator.drawer.messager.title.confirm-to-assign": {
+            "en-US": "Do you confirm to assign?",
+            "ja-JP": "分配されますか？"
+        },
+        "app.exception.description.404": {
+            "en-US": "Sorry the page you visited does not exist",
+            "ja-JP": "申し訳ございません、このページは存在しておりません"
+        },
+        "app.navigator.drawer.messager.title": {
+            "en-US": "MESSAGER",
+            "ja-JP": "メッセージ"
+        },
+        "app.exception.description.403": {
+            "en-US": "Sorry you don't have access to this page",
+            "ja-JP": "申し訳ございません、このページを開くことができません"
+        },
+        "app.navigator.drawer.pending.please-select-a-pending-reason": {
+            "en-US": "Please select a pending reason.",
+            "ja-JP": "保留の原因をお選びください."
+        },
+        "app.navigator.drawer.pending.title.pending-message": {
+            "en-US": "Pending Message",
+            "ja-JP": "保留中の情報"
+        },
+        "app.navigator.drawer.messager.notifications.draft-group": {
+            "en-US": "NotificationGroup",
+            "ja-JP": "通知グループ"
+        },
+        "app.navigator.drawer.messager.search.complete-history": {
+            "en-US": "Complete History",
+            "ja-JP": "完了履歴"
+        },
+        "app.navigator.drawer.messager.notifications.draft": {
+            "en-US": "NotificationDraft",
+            "ja-JP": "通知ドラフト"
+        },
+        "app.navigator.taskDetail.inquireForm.msg.assign-success": {
+            "en-US": "Assign Success",
+            "ja-JP": "分配成功"
+        },
+        "app.navigator.drawer.messager.status.online": {
+            "en-US": "Available",
+            "ja-JP": "利用可能"
+        },
+        "app.navigator.drawer.messager.notifications.title": {
+            "en-US": "Notifications",
+            "ja-JP": "通知"
+        },
+        "app.login.validation.username.required": {
+            "en-US": "Please enter username!",
+            "ja-JP": "ユーザー名を入力ください"
+        },
+        "app.navigator.drawer.messager.notifications.draft-modify": {
+            "en-US": "NotificationDraftModify",
+            "ja-JP": "ドラフト修正の通知"
+        },
+        "app.navigator.drawer.messager.tab.user": {
+            "en-US": "user",
+            "ja-JP": "ユーザー"
+        },
+        "app.navigator.drawer.aiCircle.you-got-new-notification": {
+            "en-US": "You got new Notification",
+            "ja-JP": "新しい通知を届きました"
+        },
+        "app.navigator.drawer.messager.msg-reconnect": {
+            "en-US": "reconnect",
+            "ja-JP": "再接続"
+        },
+        "app.navigator.drawer.messager.tab.message": {
+            "en-US": "message",
+            "ja-JP": "メッセージ"
+        },
+        "app.navigator.drawer.messager.msg-assign-task-success": {
+            "en-US": "AssignTask Success",
+            "ja-JP": "タスク分配成功"
+        },
+        "app.navigator.drawer.messager.msg-confirm-to-assign": {
+            "en-US": "Confirm to assign?",
+            "ja-JP": "分配確認されてますか？"
+        },
+        "app.chat.unread": {
+            "en-US": "You have received {unread} Messages",
+            "ja-JP": "未読メッセージがあります"
+        },
+        "app.navigator.drawer.messager.msg-you-are-offline-please-try-to": {
+            "en-US": "You are offline please try to {reconnect}.",
+            "ja-JP": "オフラインしました、 もう一度ログインしてください。"
+        },
+        "app.remark.preSubmit.fail": {
+            "en-US": "temporary data not cleaned up please clean it manually before submitting",
+            "ja-JP": "一時的データは処理未完了、提出する前に人工的処理してください "
+        },
+        "app.navigator.drawer.messager.write-notification": {
+            "en-US": "Write Notification",
+            "ja-JP": "通知を書く"
+        },
+        "app.navigator.drawer.messager.tab.team": {
+            "en-US": "team",
+            "ja-JP": "チーム"
+        },
+        "app.remark.loading": {
+            "en-US": "The data is being desperately loaded…",
+            "ja-JP": "読み込み中..."
+        },
+        "app.navigator.drawer.messager.notifications.send": {
+            "en-US": "NotificationSent",
+            "ja-JP": "既に送信しました"
+        },
+        "app.navigator.drawer.messager.draft": {
+            "en-US": "Draft",
+            "ja-JP": "ドラフト"
+        },
+        "app.navigator.drawer.pending.label.pending-message": {
+            "en-US": "Pending Message",
+            "ja-JP": " 保留中メッセージ"
+        },
+        "app.navigator.drawer.messager.input.search": {
+            "en-US": "search",
+            "ja-JP": "リサーチ"
+        },
+        "app.exception.description.500": {
+            "en-US": "Sorry the server is reporting an error",
+            "ja-JP": "申し訳ございません、サーバーがエラーが出てきました"
+        },
+        "app.navigator.drawer.messager.notifications.draft-group-detail": {
+            "en-US": "NotificationGroupDetail",
+            "ja-JP": "通知グループ詳細メッセージ"
+        },
+        "app.navigator.drawer.messager.notifications.scheduled-modify": {
+            "en-US": "NotificationScheduledModify",
+            "ja-JP": "予定変更通知"
+        },
+        "app.navigator.drawer.pending.title.reminder-message": {
+            "en-US": "Reminder Message",
+            "ja-JP": "報告者情報"
+        },
+        "app.navigator.taskDetail.inquireForm.msg.error.choose-taskid-or-assigneeUserId": {
+            "en-US": "Please choose task Id or assignee User Id",
+            "ja-JP": "タスクIDあるいは代理人ユーザーIdを選んでください"
+        },
+        "app.navigator.drawer.pending.msg-error-case-no": {
+            "en-US": "请输入正确的Case No.",
+            "ja-JP": "请输入正确的案件ナンバー"
+        },
+        "app.navigator.drawer.pending.msg-warn-case-no": {
+            "en-US": "Please input your Case No.",
+            "ja-JP": "案件ナンバーを入力ください"
+        },
+        "app.navigator.drawer.messager.pop.title.archive": {
+            "en-US": "Archive",
+            "ja-JP": "アーカイブ"
+        },
+        "app.navigator.drawer.messager.search.related-messages": {
+            "en-US": "Related Messages",
+            "ja-JP": "関連情報"
+        },
+        "app.usermanagement.basicInfo.message.dont-have-skill": {
+            "en-US": "Oops..You don't have skill set yet.",
+            "ja-JP": "あら、まだ機能は持ってないです。。"
+        },
+        "app.navigator.drawer.messager.contact.multiselect": {
+            "en-US": "MULTISELECT",
+            "ja-JP": "多数選択"
+        }
+    }
+}

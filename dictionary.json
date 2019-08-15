@@ -1,1 +1,777 @@
-{"RBAC_Resource":{"RS004005":{"en-US":"Process","ja-JP":"プロセス"},"RS002003":{"en-US":"Process","ja-JP":"プロセス"},"RS001001":{"en-US":"Inquriy-Case","ja-JP":"問い合わせ-案件"},"RS000000":{"en-US":"resourceDetail","ja-JP":"リソースディテール"},"RS002004":{"en-US":"Process","ja-JP":"プロセス"},"RS004003":{"en-US":"Process","ja-JP":"プロセス"},"RS002001":{"en-US":"Process","ja-JP":"プロセス"},"RS001003":{"en-US":"Inquiry-User","ja-JP":"問い合わせ-ユーザー"},"RS004004":{"en-US":"Process","ja-JP":"プロセス"},"RS002002":{"en-US":"Process","ja-JP":"プロセス"},"RS001002":{"en-US":"Inquiry-Task","ja-JP":"問い合わせ-タスク"},"RS001005":{"en-US":"Create Case","ja-JP":"案件作成"},"RS001004":{"en-US":"Inquiry-Claim History","ja-JP":"問い合わせ-クレームヒストリー"},"RSTHPC004":{"en-US":"Handle DA Assessment","ja-JP":"DA査定処理"},"RS004001":{"en-US":"Process","ja-JP":"プロセス"},"RS004002":{"en-US":"Process","ja-JP":"プロセス"},"RSTHPC001":{"en-US":"handle AP QC","ja-JP":"AP QC処理"},"RSTHPC002":{"en-US":"Handle AP Assessment","ja-JP":"AP査定処理"},"RSTHPC003":{"en-US":"Handle DA QC","ja-JP":"AP QC処理"}},"applicationType_jp":{"01":{"ja-JP":"死亡保険金"},"02":{"ja-JP":"入院・手術給付金"},"03":{"ja-JP":"高度障害保険金"},"04":{"ja-JP":"保険料払込免除"},"05":{"ja-JP":"リビングニーズ保険金"},"06":{"ja-JP":"特定疾病保険金"},"07":{"ja-JP":"障害給付金"},"08":{"ja-JP":"診断給付金"},"09":{"ja-JP":"その他"}},"language":{"en-US":{"en-US":"English"}},"HosptialDepartment":{"011":{"en-US":"Neurology Department"},"001":{"en-US":"Stomatology"},"002":{"en-US":"Surgery"},"003":{"en-US":"Oncology"},"004":{"en-US":"Gynecology"},"005":{"en-US":"Neurological Surgery"},"006":{"en-US":"Pneumology Department"},"007":{"en-US":"Orthopedics Department"},"008":{"en-US":"Department of internal medicine"},"009":{"en-US":"Department of pediatrics"},"010":{"en-US":"Digestive System Department"}},"RBAC_Common":{"Amount":{"en-US":"Amount"},"Payment Amount":{"en-US":"Payment Amount","ja-JP":"支払金額"}},"Gender":{"F":{"en-US":"Female"},"M":{"en-US":"Male"}},"金額":{"Amount":{"ja-JP":"Amount"}},"ClaimType":{"OP":{"en-US":"Out-Patient"},"CI":{"en-US":"Critical Illness"},"IP":{"en-US":"In-Patient"},"DTH":{"en-US":"Death"},"TPD":{"en-US":"Total&Permanent Disability"},"WOP":{"en-US":"Waiver Of Premium"},"DIS":{"en-US":"Disability"}},"CauseOfIncident_jp":{"A":{"ja-JP":"災害"},"03":{"ja-JP":"妊娠－分娩"},"04":{"ja-JP":"がん"},"05":{"ja-JP":"自殺"},"I":{"ja-JP":"疾病"}},"TypeofApplication_jp":{"01":{"ja-JP":"死亡保険金"},"02":{"ja-JP":"入院・手術給付金"},"03":{"ja-JP":"高度障害保険金"},"04":{"ja-JP":"保険料払込免除"},"05":{"ja-JP":"リビングニーズ保険金"},"06":{"ja-JP":"特定疾病保険金"},"07":{"ja-JP":"障害給付金"},"08":{"ja-JP":"診断給付金"},"09":{"ja-JP":"その他"}},"TreatmentType_jp":{"OP":{"ja-JP":"外来"},"IP":{"ja-JP":"入院"}},"APDACaseCategory":{"IHBC":{"en-US":"IPD (Hospital Billing) - Cashless (TBC)"},"PAC":{"en-US":"Pre-Arrangement - Cashless"},"OR":{"en-US":"OPD - Reimbursement"},"OC":{"en-US":"OPD - Cashless"},"IAPDAC":{"en-US":"IPD (AP&DA) - Cashless"},"IAPC":{"en-US":"IPD (AP) - Cashless"},"IR":{"en-US":"IPD - Reimbursement"},"OHBC":{"en-US":"OPD (Hospital Billing) - Cashless (TBC)"},"IDAC":{"en-US":"IPD (DA) - Cashless"},"CR":{"en-US":"Claim Request"}},"CaseSource":{"R":{"en-US":"Reimbursement"},"C":{"en-US":"Cashless"}},"JP_CR_CTG01":{"JP_CR_ACT001":{"en-US":"Eligibility Checking","ja-JP":"支払可否判断"},"JP_CR_ACT002":{"en-US":"Application Form Generation","ja-JP":"請求書類作成"}},"PayeeType":{"B":{"en-US":"Beneficiaries Of Dead"},"G":{"en-US":"Guardian"},"I":{"en-US":"Insured"}},"contact":{"001":{"en-US":"contact001"}},"ClaimDecision":{"A":{"en-US":"Approve"},"D":{"en-US":"Decline"}},"IdentityType":{"P":{"en-US":"Passport"},"I":{"en-US":"ID Card"}},"AmountType_jp":{"P":{"ja-JP":"保额"},"CV":{"ja-JP":"现金价值"},"SA":{"ja-JP":"保费"}},"ClaimantType_jp":{"99":{"ja-JP":"その他"},"01":{"ja-JP":"代理店"},"02":{"ja-JP":"被保険者"},"03":{"ja-JP":"契約者"},"04":{"ja-JP":"営業"},"05":{"ja-JP":"受取人"},"06":{"ja-JP":"指定代理請求人"}},"Rule Setup":{"ACT00302":{"en-US":"Rule Setup"},"ACT00301":{"en-US":"Rule Initiation"}},"CauseOfIncident":{"A":{"en-US":"Accident"},"I":{"en-US":"Illness"}},"InsuredType_jp":{"01":{"ja-JP":"被保険者"},"02":{"ja-JP":"配偶者"},"03":{"ja-JP":"こども"},"04":{"ja-JP":"こども保険契約者"},"05":{"ja-JP":"家族型配偶者"},"06":{"ja-JP":"家族型こども"}},"IAPC":{"CP_ACT001":{"en-US":"Quality Control"},"CP_ACT003":{"en-US":"Manual Assessment"},"CP_ACT002":{"en-US":"Auto Assessment"}},"APDAClaimType":{"OP":{"en-US":"OPD"},"IP":{"en-US":"IPD"}},"TreatmentType":{"OP":{"en-US":"Out-Patient"},"IP":{"en-US":"In-Patient"}},"Occupation_jp":{"011":{"ja-JP":"料理人"},"001":{"ja-JP":"ワーカー"},"002":{"ja-JP":"農業者"},"003":{"ja-JP":"医者"},"004":{"ja-JP":"看護師"},"005":{"ja-JP":"教師"},"006":{"ja-JP":"エンジニア"},"007":{"ja-JP":"弁護士"},"008":{"ja-JP":"運転士"},"009":{"ja-JP":"歌手"},"010":{"ja-JP":"営業マン"}},"Gender ":{"F":{"ja-JP":"女"},"M":{"ja-JP":"男"}},"benefitType_jp":{"K038P6":{"ja-JP":"入院給付金60日型"},"KWWP00":{"ja-JP":"保険料払込免除特約"},"K27500":{"ja-JP":"放射線治療給付金"},"K038WP":{"ja-JP":"保険料払込みの免除（主契約）"},"K25000":{"ja-JP":"先進医療給付金"},"K277P6":{"ja-JP":"7大生活習慣病入院給付金60日型"},"K038DH":{"ja-JP":"死亡給付金"},"K038P3":{"ja-JP":"入院給付金30日型"},"K038Q2":{"ja-JP":"入院給付金120日型"},"K038S4":{"ja-JP":"手術給付金Ⅳ型"},"K277Q2":{"ja-JP":"7大生活習慣病入院給付金120日型"},"K038S3":{"ja-JP":"手術給付金Ⅲ型"},"K038S2":{"ja-JP":"手術給付金Ⅱ型"},"K277P3":{"ja-JP":"7大生活習慣病入院給付金30日型"},"K038S1":{"ja-JP":"手術給付金Ⅰ型"}},"ClaimType_jp":{"OP":{"ja-JP":"入院なし－手術のみ"},"05":{"ja-JP":"L N"},"CI":{"ja-JP":"特疾"},"IP":{"ja-JP":"入院"},"08":{"ja-JP":"介給"},"WOP":{"ja-JP":"Ｐ免"},"TPD":{"ja-JP":"高障"},"DTH":{"ja-JP":"死亡"},"DIS":{"ja-JP":"傷特"}},"AssessmentDecision":{"A":{"en-US":"Approve"},"D":{"en-US":"Decline"}},"PaymentType_jp":{"01":{"ja-JP":"一括払"},"02":{"ja-JP":"至急払"}},"SubmissionChannel":{"A":{"en-US":"Agency"},"C":{"en-US":"Counter"},"T":{"en-US":"TPA"},"E":{"en-US":"E-Claim"},"W":{"en-US":"Web Portal"},"M":{"en-US":"Manual Create"}},"documentType_jp":{"070":{"ja-JP":"代理請求人様およびその他の推定相続人様全員の戸籍謄本・抄本および住民票"},"071":{"ja-JP":"被保険者の相続関係を確認するための書類"},"072":{"ja-JP":"その他の推定相続人様全員の印鑑登録証明書"},"073":{"ja-JP":"受取人様の戸籍謄本・抄本または住民票（法定相続人代表者様)"},"030":{"ja-JP":"死亡診断書のコピーまたは死体検案書のコピー"},"074":{"ja-JP":"被保険者様の戸籍謄本・抄本"},"031":{"ja-JP":"配偶者様の戸籍謄本・抄本または住民票"},"075":{"ja-JP":"破産管財人選任証明書"},"076":{"ja-JP":"遺族年金受取方法指図書"},"032":{"ja-JP":"被保険者様の相続関係を確認するための公的証明書"},"077":{"ja-JP":"障がい診断書"},"033":{"ja-JP":"受取人様の戸籍謄本または抄本（法定相続人代表者様）"},"034":{"ja-JP":"登記事項証明書（履歴事項全部証明書）"},"078":{"ja-JP":"年金受取方法指図書"},"079":{"ja-JP":"納税者番号・納税証明書　兼　報告同意書"},"035":{"ja-JP":"受取人様の戸籍謄本（法定相続人代表者様）"},"036":{"ja-JP":"未成年後見人様の戸籍謄本"},"037":{"ja-JP":"未成年後見人様の印鑑登録証明書"},"038":{"ja-JP":"死亡証明書"},"039":{"ja-JP":"保険証券"},"080":{"ja-JP":"契約者様の戸籍謄本・抄本または住民票"},"040":{"ja-JP":"受取人様の改姓の事実が確認できる本人確認書類"},"041":{"ja-JP":"被保険者の死亡診断書のコピーまたは死体体検案書のコピー"},"042":{"ja-JP":"被保険者及び指定受取人の戸籍謄本・抄本または住民票"},"043":{"ja-JP":"指定受取人及び被保険者の相続関係を確認するための公的証明書"},"044":{"ja-JP":"指定受取人及び被保険者の法定相続人全員の戸籍謄本・抄本"},"045":{"ja-JP":"指定受取人様の戸籍謄本・抄本または住民票"},"001":{"ja-JP":"保険金・給付金・保険料払込免除請求書"},"002":{"ja-JP":"入院・手術・通院等証明書（診断書）"},"046":{"ja-JP":"指定受取人様の法定相続人代表者様の戸籍謄本・抄本または住民票"},"003":{"ja-JP":"事故状況報告書"},"047":{"ja-JP":"法人契約・個人事業主契約保険金請求内容了知確認書"},"048":{"ja-JP":"印鑑登録証明書"},"004":{"ja-JP":"交通事故証明書のコピー"},"049":{"ja-JP":"受取人様の法定相続人代表者様の戸籍謄本・抄本または住民票"},"005":{"ja-JP":"抗がん剤治療状況報告書"},"006":{"ja-JP":"診療明細書のコピー"},"007":{"ja-JP":"領収書のコピー"},"008":{"ja-JP":"調剤明細書のコピー"},"009":{"ja-JP":"入院状況報告書"},"050":{"ja-JP":"受取人様全員の印鑑登録証明書"},"051":{"ja-JP":"受取人様の戸籍謄本・抄本または住民票（指定受取人の法定相続人様）"},"052":{"ja-JP":"受取人様の戸籍謄本・抄本または住民票（法定相続人様）"},"053":{"ja-JP":"受取人様の印鑑登録証明書（法定相続人様）"},"054":{"ja-JP":"受取人様の親権者様の印鑑登録証明書"},"010":{"ja-JP":"領収書のコピーもしくは退院証明書のコピー"},"011":{"ja-JP":"他社診断書のコピー"},"055":{"ja-JP":"受取人様の親権者様の戸籍謄本"},"012":{"ja-JP":"入院・手術・通院等証明書（診断書）or他社診断書のコピー"},"056":{"ja-JP":"受取人様の戸籍謄本"},"013":{"ja-JP":"印鑑（登録）証明書"},"057":{"ja-JP":"成年後見人様の職印証明書"},"058":{"ja-JP":"受取人様全員の戸籍謄本・抄本または住民票（法定相続人様）"},"014":{"ja-JP":"被保険者の改姓の事実が確認できる本人確認書類"},"015":{"ja-JP":"被保険者様の戸籍謄本・抄本または住民票"},"059":{"ja-JP":"障害診断書"},"016":{"ja-JP":"指定代理請求人様の戸籍謄本・抄本または住民票"},"017":{"ja-JP":"医療受給者証"},"018":{"ja-JP":"代理請求人様の戸籍謄本・抄本または住民票"},"019":{"ja-JP":"念書"},"060":{"ja-JP":"契約者（被保険者様）の戸籍謄本・抄本または住民票"},"061":{"ja-JP":"診療証明書（診断書）"},"062":{"ja-JP":"介護・障害診断書"},"063":{"ja-JP":"要介護認定・要支援認定結果通知書または介護保険被保険者証"},"064":{"ja-JP":"指定代理請求人様の印鑑登録証明書"},"020":{"ja-JP":"被保険者様の戸籍謄本"},"065":{"ja-JP":"受取人様の印鑑証明書"},"021":{"ja-JP":"破産管財人様の印鑑証明書"},"022":{"ja-JP":"破産管財人資格証明及び印鑑証明申請書"},"066":{"ja-JP":"代理請求人様の印鑑登録証明書"},"067":{"ja-JP":"代理請求人様およびその他の推定相続人様１名の戸籍謄本"},"023":{"ja-JP":"法定代理人様の印鑑証明書"},"024":{"ja-JP":"登記事項証明書"},"068":{"ja-JP":"その他の推定相続人様1名の印鑑登録証明書"},"069":{"ja-JP":"代理請求人様およびその他の推定相続人様１名の戸籍謄本・抄本および住民票"},"025":{"ja-JP":"保険契約(特約)無効申請書"},"026":{"ja-JP":"納税者番号・納税証明書兼報告同意書"},"027":{"ja-JP":"受取人（相続人）代表者選任届"},"028":{"ja-JP":"受取人様の戸籍謄本・抄本または住民票（法定相続人代表者様）"},"029":{"ja-JP":"受取人様の印鑑登録証明書"}},"AmountType":{"P":{"en-US":"Premium"},"CV":{"en-US":"Cash Value"},"SA":{"en-US":"Sum Assured"}},"CaseStatus":{"cancel":{"en-US":"Cancel"},"inProgress":{"en-US":"In Progress"},"close":{"en-US":"Closed"}},"PaymentMethod":{"01":{"en-US":"Bank Transfer"},"02":{"en-US":"Counter Deposit"}},"PayablesType_jp":{"P":{"ja-JP":"归属于投保人"},"C":{"ja-JP":"归属于被保险者"},"I":{"ja-JP":"归属于受益人"}},"Claim Request":{"manualAssessment":{"en-US":"Manual Assessment"},"claimApproval":{"en-US":"Claim Approval"},"autoAssessment":{"en-US":"Auto Assessment"},"dataCapture":{"en-US":"Data Capture"},"qualityControl":{"en-US":"Quality Control"}},"status":{"0":{"en-US":"Active"},"1":{"en-US":"In-active"}},"TransferAccount_jp":{"01":{"ja-JP":"振替口座"},"02":{"ja-JP":"指定口座"}},"SubmissionChannel_jp":{"01":{"ja-JP":"SFDC"}},"Organization":{"ORGTH00301":{"en-US":"TH Claim Admin"},"ORG00101":{"en-US":"FWD Thailand Bangkok"},"ORG00201":{"en-US":"Sales Marketing"},"ORGTH00302":{"en-US":"TH Assessor"},"ORG00202":{"en-US":"Claim Department"},"ORG00301":{"en-US":"Claim Data Capture"},"ORG00302":{"en-US":"Claim Assessment"},"ORG00203":{"en-US":"Policy Administration"}},"activity":{"CP_ACT001":{"en-US":"Quality Control"},"autoAssessment":{"en-US":"Auto Assessment","ja-JP":"自動査定"},"CP_ACT003":{"en-US":"Manual Assessment"},"CP_ACT002":{"en-US":"Auto Assessment"},"qualityControl":{"en-US":"Quality Control","ja-JP":"品質管理"},"JP_CA_ACT004":{"en-US":"Claim Approval","ja-JP":"决裁"},"JP_CA_ACT002":{"en-US":"Manual Assessment","ja-JP":"一次查定"},"JP_CA_ACT003":{"en-US":"Assessment Review","ja-JP":"二次查定"},"manualAssessment":{"en-US":"Manual Assessment","ja-JP":"人工的評価"},"JP_CR_ACT001":{"en-US":"Claim Registration","ja-JP":"事故受付"},"claimApproval":{"en-US":"Claim Approval","ja-JP":"クレーム決裁"},"dataCapture":{"en-US":"Data Capture","ja-JP":"データ収集"},"JP_CA_ACT001":{"en-US":"Auto Assessment","ja-JP":"自動查定"}},"certificate":{"certificate1":{"en-US":"Business"},"certificate2":{"en-US":"Language"}},"DiagnosisType_jp":{"P":{"ja-JP":"主な疾病"},"S":{"ja-JP":"二次的な疾病"}},"button":{"app.navigator.task-detail-of-claim-assessment.beneficiary.button.add-card":{"en-US":"Add","ja-JP":"増加"},"component.button.return":{"en-US":"RETURN","ja-JP":"戻る"},"app.navigator.task-detail-of-data-capture.button.accept":{"en-US":"accept","ja-JP":"该当"},"app.navigator.drawer.pending.button.waive":{"en-US":"Waive","ja-JP":"諦める"},"app.navigator.task-detail-of-claim-assessment.button.assessment-compare":{"en-US":"contrast of the circular ","ja-JP":"稟議書対比"},"app.navigator.taskDetail.inquireForm.button.batch-add":{"en-US":"Batch add","ja-JP":"バッチ増加"},"app.navigator.drawer.remark.button.delete-draft":{"en-US":"Delete Draft","ja-JP":"下書き削除"},"app.navigator.task-detail-of-data-capture.button.days":{"en-US":"DAYS","ja-JP":"日数"},"app.navigator.task-detail-of-data-capture.button.procedure":{"en-US":"Procedure","ja-JP":"手術"},"app.navigator.drawer.remark.button.save-as-draft":{"en-US":"Save as Draft","ja-JP":"下書きとして保存"},"app.navigator.task-detail-of-claim-assessment.button.incident-payable":{"en-US":"Incident Payable","ja-JP":"給付金をふやす"},"app.navigator.drawer.messager.button.no":{"en-US":"No","ja-JP":"いいえ"},"app.navigator.task-detail-of-data-capture.button.fee":{"en-US":"Fee","ja-JP":"費用"},"app.navigator.drawer.pending.button.letter":{"en-US":"Letter","ja-JP":"文書"},"app.navigator.taskDetail.inquireForm.button.batch-deletion":{"en-US":"Batch deletion","ja-JP":"バッチ削除"},"app.navigator.task-detail-of-data-capture.button.error":{"en-US":"ERROR","ja-JP":"エラー"},"app.navigator.task-detail-of-claim-assessment.button.re-assessment":{"en-US":"Re - Assessment","ja-JP":"再評価"},"app.navigator.taskDetail.inquireForm.button.switch-to-list-mode":{"en-US":"Switch to list mode","ja-JP":"リストモードを切り替える"},"app.navigator.task-detail-of-claim-assessment.button.contract-liquidation":{"en-US":"Contract Liquidation","ja-JP":"契約精算"},"app.navigator.task-detail-of-data-capture.button":{"en-US":"Incident","ja-JP":"事件"},"app.navigator.task-detail-of-data-capture.button.reject":{"en-US":"REJECT","ja-JP":"断る"},"app.navigator.task-detail-of-claim-assessment.button.payment-allocation":{"en-US":"Payment Allocation","ja-JP":"支払いを配分"},"app.navigator.task-detail-of-claim-assessment.button.invoice-payable":{"en-US":"Invoice Payable","ja-JP":"インボイス支払金額"},"app.navigator.drawer.pending.button.sms":{"en-US":"SMS","ja-JP":"SMS"},"component.button.next":{"en-US":"next","ja-JP":"ネクスト"},"app.navigator.task-detail-of-data-capture.button.service":{"en-US":"Service","ja-JP":"サービス"},"component.button.back":{"en-US":"back","ja-JP":"バック"},"app.navigator.task-detail-of-claim-assessment.button.treatment-payable":{"en-US":"Treatment Payable","ja-JP":"給付金をふやす"},"app.navigator.task-detail-of-data-capture.button.submit":{"en-US":"SUBMIT","ja-JP":"提出"},"app.navigator.task-detail-of-data-capture.button.delete":{"en-US":"Delete","ja-JP":"デリート"},"app.navigator.drawer.pending.button.more":{"en-US":"More","ja-JP":"もっと"},"app.navigator.drawer.messager.button.yes":{"en-US":"Yes","ja-JP":"はい"},"app.navigator.taskDetail.inquireForm.button.reject":{"en-US":"Reject","ja-JP":"断る"},"app.navigator.task-detail-of-claim-assessment.button.service-payable":{"en-US":"Service Payable","ja-JP":"サービス支払金額"},"app.navigator.caseDetail.button.end-case":{"en-US":"End Case","ja-JP":"案件終了"},"app.navigator.task-detail-of-data-capture.button.day":{"en-US":"DAY","ja-JP":"日にち"},"app.navigator.task-detail-of-data-capture.button.decision":{"en-US":"Decision","ja-JP":"該当/非該当"},"app.navigator.task-detail-of-claim-assessment.beneficiary.button.beneficiary":{"en-US":"Beneficiary","ja-JP":"受益者"},"app.navigator.task-detail-of-claim-assessment.button.day":{"en-US":"DAY","ja-JP":"日"},"app.usermanagement.button.create-new-dashboard":{"en-US":"Create New Dashboard","ja-JP":"新たなダッシュボードを作成する"},"app.navigator.taskDetail.inquireForm.button.cancel":{"en-US":"Cancel","ja-JP":"キャンセル"}},"ClaimDecision_jp":{"A":{"ja-JP":"支払"},"D":{"ja-JP":"拒否"}},"DiagnosisType":{"P":{"en-US":"Primary"},"S":{"en-US":"Secondary"}},"Benefit Category":{"R":{"en-US":"Reimbursement Benefit"},"C":{"en-US":"Cash Benefit"},"L":{"en-US":"Life Benefit"}},"PageButton":{"image":{"en-US":"Image Data","ja-JP":"画像データ"},"nonApplicableSubmit":{"ja-JP":"非該当提出"},"submit":{"en-US":"Submit","ja-JP":"提出"},"reject":{"en-US":"Reject","ja-JP":"拒否"},"returnAppDoc":{"ja-JP":"請求書類戻る"},"save":{"en-US":"Save","ja-JP":"保存"},"urgent":{"en-US":"Urgent","ja-JP":"至急"},"favorite":{"en-US":"Favorite","ja-JP":"ブックマーク"},"sendAppForm":{"ja-JP":"請求書発送"}},"Account_jp":{"01":{"ja-JP":"普通"},"02":{"ja-JP":"当座"},"03":{"ja-JP":"貯蓄"}},"InsuredState":{"R":{"en-US":"Recovered"},"D":{"en-US":"Dead"},"U":{"en-US":"Under Treatment"},"I":{"en-US":"Disabled"}},"IDAC":{"CP_ACT001":{"en-US":"Quality Control"},"CP_ACT003":{"en-US":"Manual Assessment"},"CP_ACT002":{"en-US":"Auto Assessment"}},"Relationship_jp":{"10":{"ja-JP":"法人"},"90":{"ja-JP":"法定相続人"},"PAR":{"ja-JP":"父母"},"OTH":{"ja-JP":"その他の続柄"},"BNS":{"ja-JP":"兄弟姉妹"},"07":{"ja-JP":"孫"},"08":{"ja-JP":"その他親族"},"09":{"ja-JP":"内縁"},"EMP":{"ja-JP":"雇用主"},"SLF":{"ja-JP":"本人"},"SPU":{"ja-JP":"配偶者"},"GPA":{"ja-JP":"祖父母"},"CHD":{"ja-JP":"子"}},"RBAC_Group":{"PGJP003":{"en-US":"一次査定组"},"PGJP004":{"ja-JP":"二次査定组"},"PGJP001":{"en-US":"事故受付组"},"PGJP002":{"en-US":"請求書作成组"},"PGJP005":{"ja-JP":"査定決裁组"},"PGJP006":{"ja-JP":"理赔组"},"PG001":{"en-US":"Capture Teammate","ja-JP":"データ入力メンバー"},"PG002":{"en-US":"Capture Team Leader","ja-JP":"えーた入力リーダー"},"PGTH003":{"en-US":"Senior Assessor","ja-JP":"上級査定者"},"PG003":{"en-US":"Assessment Teammate","ja-JP":"査定組メンバー"},"PG004":{"en-US":"Assessment Team Leader","ja-JP":"査定組リーダー"},"PG005":{"en-US":"Claim Dept Head","ja-JP":"クレーム部部長"},"PGTH002":{"en-US":"Assessor","ja-JP":"査定者"},"PGTH001":{"en-US":"Claim Admin","ja-JP":"クレーム管理"}},"PolicyType_jp":{"G":{"ja-JP":"団体保険"},"I":{"ja-JP":"個人保険"}},"AssessmentDecision_jp":{"A":{"ja-JP":"支払"},"D":{"ja-JP":"拒否"}},"ApprovalDecision_jp":{"A":{"ja-JP":"支払"},"D":{"ja-JP":"拒否"}},"JP_CA_CTG01":{"JP_CA_ACT004":{"en-US":"Claim Approval","ja-JP":"决裁"},"JP_CA_ACT002":{"en-US":"Manual Assessment","ja-JP":"一次查定"},"JP_CA_ACT003":{"en-US":"Assessment Review","ja-JP":"二次查定"},"JP_CA_ACT001":{"en-US":"Auto Assessment","ja-JP":"自動查定"}},"PaymentMethod_jp":{"01":{"ja-JP":"銀行送金"},"02":{"ja-JP":"郵便振替"}},"IncidentInsuredType_jp":{"01":{"ja-JP":"被保険者"},"02":{"ja-JP":"配偶者"},"03":{"ja-JP":"こども"},"04":{"ja-JP":"こども保険契約者"},"05":{"ja-JP":"家族型配偶者"},"06":{"ja-JP":"家族型こども"}},"InquiryStatus":{"todo":{"en-US":"TO DO","ja-JP":"やります"},"pending":{"en-US":"Pending","ja-JP":"保留中"},"cancelled":{"en-US":"Cancelled","ja-JP":"取り消し"},"completed":{"en-US":"Completed","ja-JP":"完了"}},"link_to":{"task":{"en-US":"task"},"insured":{"en-US":"insured"},"case":{"en-US":"case"},"policy":{"en-US":"policy"}},"CaseCategory":{"IHBC":{"en-US":"IPD (Hospital Billing) - Cashless (TBC)"},"OR":{"en-US":"OPD - Reimbursement"},"PAC":{"en-US":"Pre-Arrangement - Cashless"},"JP_CA_CTG01":{"en-US":"Claim Assessment","ja-JP":"支払査定"},"OC":{"en-US":"OPD - Cashless"},"JP_CR_CTG01":{"en-US":"Claim Registration","ja-JP":"事故受付"},"IAPDAC":{"en-US":"IPD (AP&DA) - Cashless"},"IAPC":{"en-US":"IPD (AP) - Cashless"},"IR":{"en-US":"IPD - Reimbursement"},"OHBC":{"en-US":"OPD (Hospital Billing) - Cashless (TBC)"},"Claim Request":{"en-US":"Claim Request","ja-JP":"クレーム要求"},"IDAC":{"en-US":"IPD (DA) - Cashless"}},"marital":{"marital2":{"en-US":"Married"},"marital3":{"en-US":"Divorced"},"marital1":{"en-US":"Single"}},"risk_status":{"PS":{"en-US":"Contract Proposal"},"DH":{"en-US":"Approved Death Claim"},"PU":{"en-US":"Paid Up Contract"},"FL":{"en-US":"Freelook Cancellation"},"LR":{"en-US":"Lapse Reinstatement"},"NT":{"en-US":"Not taken Up"},"PW":{"en-US":"Windforward Pending"},"HP":{"en-US":"PH Reinstatement Pending"},"WD":{"en-US":"Contract Withdrawn"},"DR":{"en-US":"Rejected Death Claim"},"MA":{"en-US":"Contract Matured"},"IF":{"en-US":"In Force"},"SR":{"en-US":"Surrender Reinstatement"},"CC":{"en-US":"CI Fully Claim"},"SU":{"en-US":"Contract Surrendered"},"AC":{"en-US":"Accident Fully Claim"},"UW":{"en-US":"Underwriting"},"MP":{"en-US":"Component changes - modify prp"},"CF":{"en-US":"Cancelled from Inception"},"CP":{"en-US":"Certificate Printed"},"TC":{"en-US":"TPD Fully Claim "},"AP":{"en-US":"Component change - Add prpsl"},"RD":{"en-US":"Registered Death Claim"},"EX":{"en-US":"Expiry"},"LA":{"en-US":"Contract Lapsed"},"VR":{"en-US":"Vesting Registered"},"TR":{"en-US":"Contract Terminated"},"DC":{"en-US":"Contract Declined"},"PO":{"en-US":"Contract Postponed"}},"APDASubmissionChannel":{"P":{"en-US":"Post"},"A":{"en-US":"Agent"},"B":{"en-US":"Branch"},"E":{"en-US":"E-Claim"},"W":{"en-US":"Walk in"},"H":{"en-US":"Hospital Portal"},"L":{"en-US":"Line"}},"ProcedureType_jp":{"01":{"ja-JP":"放射線治療"},"02":{"ja-JP":"先進医療"}},"RUW":{"RUWP_ACT001":{"en-US":"Underwriting"}},"ProcedureItem_jp":{"01":{"ja-JP":"放射"},"02":{"ja-JP":"放射線"}},"Relationship":{"PAR":{"en-US":"Parent"},"OTH":{"en-US":"Others"},"BNS":{"en-US":"Brother&Sister"},"SPU":{"en-US":"Spouse"},"GPA":{"en-US":"Grandparent"},"EMP":{"en-US":"Employer"},"SLF":{"en-US":"Self"},"CHD":{"en-US":"Child"}},"information":{"assessment":{"en-US":"assessment_note"},"approval":{"en-US":"approval_comment"},"reject":{"en-US":"reject_message"},"remark":{"en-US":"remark"}},"WaivedReason_jp":{"01":{"ja-JP":"被保険者障害"},"02":{"ja-JP":"契約者死亡"},"03":{"ja-JP":"契約者高度障害"},"04":{"ja-JP":"契約者身体障害"},"05":{"ja-JP":"被保険者高度障害"},"06":{"ja-JP":"被保険者要介護"},"07":{"ja-JP":"被保険者疾病"}},"category":{"assessmentNotice":{"en-US":"Assessment Notice","ja-JP":"一次査定注意点"},"approvalNote":{"en-US":"Approval Note","ja-JP":"決裁意見"},"approvalNotice":{"en-US":"Approval Notice","ja-JP":"決裁注意点"},"reject":{"en-US":"Reject Message","ja-JP":"拒否意見"},"remark":{"en-US":"Remark","ja-JP":"備考"},"assessmentReviewNote":{"en-US":"Assessment Review Note","ja-JP":"二次査定意見"},"assessmentNote":{"en-US":"Assessment Note","ja-JP":"一次査定意見"}},"InsuredState_jp":{"A":{"ja-JP":"入院予定"},"R":{"ja-JP":"退院"},"D":{"ja-JP":"死亡"},"U":{"ja-JP":"入院"},"I":{"ja-JP":"高障"}},"activity_status":{"todo":{"en-US":"To Do","ja-JP":"やります"},"pending":{"en-US":"Pending","ja-JP":"保留中"},"inprogress":{"en-US":"In Progress","ja-JP":"進行中"},"cancelled":{"en-US":"Cancelled","ja-JP":"取り消し"},"completed":{"en-US":"Completed","ja-JP":"完了"},"error":{"en-US":"Error","ja-JP":"エラー"}}}
+{
+  "RBAC_Resource": {
+    "RS004005": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS002003": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS001001": { "en-US": "Inquriy-Case", "ja-JP": "問い合わせ-案件" },
+    "RS000000": { "en-US": "resourceDetail", "ja-JP": "リソースディテール" },
+    "RS002004": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS004003": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS002001": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS001003": { "en-US": "Inquiry-User", "ja-JP": "問い合わせ-ユーザー" },
+    "RS004004": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS002002": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS001002": { "en-US": "Inquiry-Task", "ja-JP": "問い合わせ-タスク" },
+    "RS001005": { "en-US": "Create Case", "ja-JP": "案件作成" },
+    "RS001004": {
+      "en-US": "Inquiry-Claim History",
+      "ja-JP": "問い合わせ-クレームヒストリー"
+    },
+    "RSTHPC004": { "en-US": "Handle DA Assessment", "ja-JP": "DA査定処理" },
+    "RS004001": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RS004002": { "en-US": "Process", "ja-JP": "プロセス" },
+    "RSTHPC001": { "en-US": "handle AP QC", "ja-JP": "AP QC処理" },
+    "RSTHPC002": { "en-US": "Handle AP Assessment", "ja-JP": "AP査定処理" },
+    "RSTHPC003": { "en-US": "Handle DA QC", "ja-JP": "AP QC処理" }
+  },
+  "applicationType_jp": {
+    "01": { "ja-JP": "死亡保険金" },
+    "02": { "ja-JP": "入院・手術給付金" },
+    "03": { "ja-JP": "高度障害保険金" },
+    "04": { "ja-JP": "保険料払込免除" },
+    "05": { "ja-JP": "リビングニーズ保険金" },
+    "06": { "ja-JP": "特定疾病保険金" },
+    "07": { "ja-JP": "障害給付金" },
+    "08": { "ja-JP": "診断給付金" },
+    "09": { "ja-JP": "その他" }
+  },
+  "language": { "en-US": { "en-US": "English" } },
+  "HosptialDepartment": {
+    "011": { "en-US": "Neurology Department" },
+    "001": { "en-US": "Stomatology" },
+    "002": { "en-US": "Surgery" },
+    "003": { "en-US": "Oncology" },
+    "004": { "en-US": "Gynecology" },
+    "005": { "en-US": "Neurological Surgery" },
+    "006": { "en-US": "Pneumology Department" },
+    "007": { "en-US": "Orthopedics Department" },
+    "008": { "en-US": "Department of internal medicine" },
+    "009": { "en-US": "Department of pediatrics" },
+    "010": { "en-US": "Digestive System Department" }
+  },
+  "RBAC_Common": {
+    "Amount": { "en-US": "Amount" },
+    "Payment Amount": { "en-US": "Payment Amount", "ja-JP": "支払金額" }
+  },
+  "Gender": { "F": { "en-US": "Female" }, "M": { "en-US": "Male" } },
+  "金額": { "Amount": { "ja-JP": "Amount" } },
+  "ClaimType": {
+    "OP": { "en-US": "Out-Patient" },
+    "CI": { "en-US": "Critical Illness" },
+    "IP": { "en-US": "In-Patient" },
+    "DTH": { "en-US": "Death" },
+    "TPD": { "en-US": "Total&Permanent Disability" },
+    "WOP": { "en-US": "Waiver Of Premium" },
+    "DIS": { "en-US": "Disability" }
+  },
+  "CauseOfIncident_jp": {
+    "A": { "ja-JP": "災害" },
+    "03": { "ja-JP": "妊娠－分娩" },
+    "04": { "ja-JP": "がん" },
+    "05": { "ja-JP": "自殺" },
+    "I": { "ja-JP": "疾病" }
+  },
+  "TypeofApplication_jp": {
+    "01": { "ja-JP": "死亡保険金" },
+    "02": { "ja-JP": "入院・手術給付金" },
+    "03": { "ja-JP": "高度障害保険金" },
+    "04": { "ja-JP": "保険料払込免除" },
+    "05": { "ja-JP": "リビングニーズ保険金" },
+    "06": { "ja-JP": "特定疾病保険金" },
+    "07": { "ja-JP": "障害給付金" },
+    "08": { "ja-JP": "診断給付金" },
+    "09": { "ja-JP": "その他" }
+  },
+  "TreatmentType_jp": { "OP": { "ja-JP": "外来" }, "IP": { "ja-JP": "入院" } },
+  "APDACaseCategory": {
+    "IHBC": { "en-US": "IPD (Hospital Billing) - Cashless (TBC)" },
+    "PAC": { "en-US": "Pre-Arrangement - Cashless" },
+    "OR": { "en-US": "OPD - Reimbursement" },
+    "OC": { "en-US": "OPD - Cashless" },
+    "IAPDAC": { "en-US": "IPD (AP&DA) - Cashless" },
+    "IAPC": { "en-US": "IPD (AP) - Cashless" },
+    "IR": { "en-US": "IPD - Reimbursement" },
+    "OHBC": { "en-US": "OPD (Hospital Billing) - Cashless (TBC)" },
+    "IDAC": { "en-US": "IPD (DA) - Cashless" },
+    "CR": { "en-US": "Claim Request" }
+  },
+  "CaseSource": {
+    "R": { "en-US": "Reimbursement" },
+    "C": { "en-US": "Cashless" }
+  },
+  "JP_CR_CTG01": {
+    "JP_CR_ACT001": {
+      "en-US": "Eligibility Checking",
+      "ja-JP": "支払可否判断"
+    },
+    "JP_CR_ACT002": {
+      "en-US": "Application Form Generation",
+      "ja-JP": "請求書類作成"
+    }
+  },
+  "PayeeType": {
+    "B": { "en-US": "Beneficiaries Of Dead" },
+    "G": { "en-US": "Guardian" },
+    "I": { "en-US": "Insured" }
+  },
+  "contact": { "001": { "en-US": "contact001" } },
+  "ClaimDecision": { "A": { "en-US": "Approve" }, "D": { "en-US": "Decline" } },
+  "IdentityType": { "P": { "en-US": "Passport" }, "I": { "en-US": "ID Card" } },
+  "AmountType_jp": {
+    "P": { "ja-JP": "保额" },
+    "CV": { "ja-JP": "现金价值" },
+    "SA": { "ja-JP": "保费" }
+  },
+  "ClaimantType_jp": {
+    "99": { "ja-JP": "その他" },
+    "01": { "ja-JP": "代理店" },
+    "02": { "ja-JP": "被保険者" },
+    "03": { "ja-JP": "契約者" },
+    "04": { "ja-JP": "営業" },
+    "05": { "ja-JP": "受取人" },
+    "06": { "ja-JP": "指定代理請求人" }
+  },
+  "Rule Setup": {
+    "ACT00302": { "en-US": "Rule Setup" },
+    "ACT00301": { "en-US": "Rule Initiation" }
+  },
+  "CauseOfIncident": {
+    "A": { "en-US": "Accident" },
+    "I": { "en-US": "Illness" }
+  },
+  "InsuredType_jp": {
+    "01": { "ja-JP": "被保険者" },
+    "02": { "ja-JP": "配偶者" },
+    "03": { "ja-JP": "こども" },
+    "04": { "ja-JP": "こども保険契約者" },
+    "05": { "ja-JP": "家族型配偶者" },
+    "06": { "ja-JP": "家族型こども" }
+  },
+  "IAPC": {
+    "CP_ACT001": { "en-US": "Quality Control" },
+    "CP_ACT003": { "en-US": "Manual Assessment" },
+    "CP_ACT002": { "en-US": "Auto Assessment" }
+  },
+  "APDAClaimType": { "OP": { "en-US": "OPD" }, "IP": { "en-US": "IPD" } },
+  "TreatmentType": {
+    "OP": { "en-US": "Out-Patient" },
+    "IP": { "en-US": "In-Patient" }
+  },
+  "Occupation_jp": {
+    "011": { "ja-JP": "料理人" },
+    "001": { "ja-JP": "ワーカー" },
+    "002": { "ja-JP": "農業者" },
+    "003": { "ja-JP": "医者" },
+    "004": { "ja-JP": "看護師" },
+    "005": { "ja-JP": "教師" },
+    "006": { "ja-JP": "エンジニア" },
+    "007": { "ja-JP": "弁護士" },
+    "008": { "ja-JP": "運転士" },
+    "009": { "ja-JP": "歌手" },
+    "010": { "ja-JP": "営業マン" }
+  },
+  "Gender ": { "F": { "ja-JP": "女" }, "M": { "ja-JP": "男" } },
+  "benefitType_jp": {
+    "K038P6": { "ja-JP": "入院給付金60日型" },
+    "KWWP00": { "ja-JP": "保険料払込免除特約" },
+    "K27500": { "ja-JP": "放射線治療給付金" },
+    "K038WP": { "ja-JP": "保険料払込みの免除（主契約）" },
+    "K25000": { "ja-JP": "先進医療給付金" },
+    "K277P6": { "ja-JP": "7大生活習慣病入院給付金60日型" },
+    "K038DH": { "ja-JP": "死亡給付金" },
+    "K038P3": { "ja-JP": "入院給付金30日型" },
+    "K038Q2": { "ja-JP": "入院給付金120日型" },
+    "K038S4": { "ja-JP": "手術給付金Ⅳ型" },
+    "K277Q2": { "ja-JP": "7大生活習慣病入院給付金120日型" },
+    "K038S3": { "ja-JP": "手術給付金Ⅲ型" },
+    "K038S2": { "ja-JP": "手術給付金Ⅱ型" },
+    "K277P3": { "ja-JP": "7大生活習慣病入院給付金30日型" },
+    "K038S1": { "ja-JP": "手術給付金Ⅰ型" }
+  },
+  "ClaimType_jp": {
+    "OP": { "ja-JP": "入院なし－手術のみ" },
+    "05": { "ja-JP": "L N" },
+    "CI": { "ja-JP": "特疾" },
+    "IP": { "ja-JP": "入院" },
+    "08": { "ja-JP": "介給" },
+    "WOP": { "ja-JP": "Ｐ免" },
+    "TPD": { "ja-JP": "高障" },
+    "DTH": { "ja-JP": "死亡" },
+    "DIS": { "ja-JP": "傷特" }
+  },
+  "AssessmentDecision": {
+    "A": { "en-US": "Approve" },
+    "D": { "en-US": "Decline" }
+  },
+  "PaymentType_jp": {
+    "01": { "ja-JP": "一括払" },
+    "02": { "ja-JP": "至急払" }
+  },
+  "SubmissionChannel": {
+    "A": { "en-US": "Agency" },
+    "C": { "en-US": "Counter" },
+    "T": { "en-US": "TPA" },
+    "E": { "en-US": "E-Claim" },
+    "W": { "en-US": "Web Portal" },
+    "M": { "en-US": "Manual Create" }
+  },
+  "documentType_jp": {
+    "070": {
+      "ja-JP": "代理請求人様およびその他の推定相続人様全員の戸籍謄本・抄本および住民票"
+    },
+    "071": { "ja-JP": "被保険者の相続関係を確認するための書類" },
+    "072": { "ja-JP": "その他の推定相続人様全員の印鑑登録証明書" },
+    "073": {
+      "ja-JP": "受取人様の戸籍謄本・抄本または住民票（法定相続人代表者様)"
+    },
+    "030": { "ja-JP": "死亡診断書のコピーまたは死体検案書のコピー" },
+    "074": { "ja-JP": "被保険者様の戸籍謄本・抄本" },
+    "031": { "ja-JP": "配偶者様の戸籍謄本・抄本または住民票" },
+    "075": { "ja-JP": "破産管財人選任証明書" },
+    "076": { "ja-JP": "遺族年金受取方法指図書" },
+    "032": { "ja-JP": "被保険者様の相続関係を確認するための公的証明書" },
+    "077": { "ja-JP": "障がい診断書" },
+    "033": { "ja-JP": "受取人様の戸籍謄本または抄本（法定相続人代表者様）" },
+    "034": { "ja-JP": "登記事項証明書（履歴事項全部証明書）" },
+    "078": { "ja-JP": "年金受取方法指図書" },
+    "079": { "ja-JP": "納税者番号・納税証明書　兼　報告同意書" },
+    "035": { "ja-JP": "受取人様の戸籍謄本（法定相続人代表者様）" },
+    "036": { "ja-JP": "未成年後見人様の戸籍謄本" },
+    "037": { "ja-JP": "未成年後見人様の印鑑登録証明書" },
+    "038": { "ja-JP": "死亡証明書" },
+    "039": { "ja-JP": "保険証券" },
+    "080": { "ja-JP": "契約者様の戸籍謄本・抄本または住民票" },
+    "040": { "ja-JP": "受取人様の改姓の事実が確認できる本人確認書類" },
+    "041": {
+      "ja-JP": "被保険者の死亡診断書のコピーまたは死体体検案書のコピー"
+    },
+    "042": { "ja-JP": "被保険者及び指定受取人の戸籍謄本・抄本または住民票" },
+    "043": {
+      "ja-JP": "指定受取人及び被保険者の相続関係を確認するための公的証明書"
+    },
+    "044": {
+      "ja-JP": "指定受取人及び被保険者の法定相続人全員の戸籍謄本・抄本"
+    },
+    "045": { "ja-JP": "指定受取人様の戸籍謄本・抄本または住民票" },
+    "001": { "ja-JP": "保険金・給付金・保険料払込免除請求書" },
+    "002": { "ja-JP": "入院・手術・通院等証明書（診断書）" },
+    "046": {
+      "ja-JP": "指定受取人様の法定相続人代表者様の戸籍謄本・抄本または住民票"
+    },
+    "003": { "ja-JP": "事故状況報告書" },
+    "047": { "ja-JP": "法人契約・個人事業主契約保険金請求内容了知確認書" },
+    "048": { "ja-JP": "印鑑登録証明書" },
+    "004": { "ja-JP": "交通事故証明書のコピー" },
+    "049": {
+      "ja-JP": "受取人様の法定相続人代表者様の戸籍謄本・抄本または住民票"
+    },
+    "005": { "ja-JP": "抗がん剤治療状況報告書" },
+    "006": { "ja-JP": "診療明細書のコピー" },
+    "007": { "ja-JP": "領収書のコピー" },
+    "008": { "ja-JP": "調剤明細書のコピー" },
+    "009": { "ja-JP": "入院状況報告書" },
+    "050": { "ja-JP": "受取人様全員の印鑑登録証明書" },
+    "051": {
+      "ja-JP": "受取人様の戸籍謄本・抄本または住民票（指定受取人の法定相続人様）"
+    },
+    "052": { "ja-JP": "受取人様の戸籍謄本・抄本または住民票（法定相続人様）" },
+    "053": { "ja-JP": "受取人様の印鑑登録証明書（法定相続人様）" },
+    "054": { "ja-JP": "受取人様の親権者様の印鑑登録証明書" },
+    "010": { "ja-JP": "領収書のコピーもしくは退院証明書のコピー" },
+    "011": { "ja-JP": "他社診断書のコピー" },
+    "055": { "ja-JP": "受取人様の親権者様の戸籍謄本" },
+    "012": {
+      "ja-JP": "入院・手術・通院等証明書（診断書）or他社診断書のコピー"
+    },
+    "056": { "ja-JP": "受取人様の戸籍謄本" },
+    "013": { "ja-JP": "印鑑（登録）証明書" },
+    "057": { "ja-JP": "成年後見人様の職印証明書" },
+    "058": {
+      "ja-JP": "受取人様全員の戸籍謄本・抄本または住民票（法定相続人様）"
+    },
+    "014": { "ja-JP": "被保険者の改姓の事実が確認できる本人確認書類" },
+    "015": { "ja-JP": "被保険者様の戸籍謄本・抄本または住民票" },
+    "059": { "ja-JP": "障害診断書" },
+    "016": { "ja-JP": "指定代理請求人様の戸籍謄本・抄本または住民票" },
+    "017": { "ja-JP": "医療受給者証" },
+    "018": { "ja-JP": "代理請求人様の戸籍謄本・抄本または住民票" },
+    "019": { "ja-JP": "念書" },
+    "060": { "ja-JP": "契約者（被保険者様）の戸籍謄本・抄本または住民票" },
+    "061": { "ja-JP": "診療証明書（診断書）" },
+    "062": { "ja-JP": "介護・障害診断書" },
+    "063": {
+      "ja-JP": "要介護認定・要支援認定結果通知書または介護保険被保険者証"
+    },
+    "064": { "ja-JP": "指定代理請求人様の印鑑登録証明書" },
+    "020": { "ja-JP": "被保険者様の戸籍謄本" },
+    "065": { "ja-JP": "受取人様の印鑑証明書" },
+    "021": { "ja-JP": "破産管財人様の印鑑証明書" },
+    "022": { "ja-JP": "破産管財人資格証明及び印鑑証明申請書" },
+    "066": { "ja-JP": "代理請求人様の印鑑登録証明書" },
+    "067": { "ja-JP": "代理請求人様およびその他の推定相続人様１名の戸籍謄本" },
+    "023": { "ja-JP": "法定代理人様の印鑑証明書" },
+    "024": { "ja-JP": "登記事項証明書" },
+    "068": { "ja-JP": "その他の推定相続人様1名の印鑑登録証明書" },
+    "069": {
+      "ja-JP": "代理請求人様およびその他の推定相続人様１名の戸籍謄本・抄本および住民票"
+    },
+    "025": { "ja-JP": "保険契約(特約)無効申請書" },
+    "026": { "ja-JP": "納税者番号・納税証明書兼報告同意書" },
+    "027": { "ja-JP": "受取人（相続人）代表者選任届" },
+    "028": {
+      "ja-JP": "受取人様の戸籍謄本・抄本または住民票（法定相続人代表者様）"
+    },
+    "029": { "ja-JP": "受取人様の印鑑登録証明書" }
+  },
+  "AmountType": {
+    "P": { "en-US": "Premium" },
+    "CV": { "en-US": "Cash Value" },
+    "SA": { "en-US": "Sum Assured" }
+  },
+  "CaseStatus": {
+    "cancel": { "en-US": "Cancel" },
+    "inProgress": { "en-US": "In Progress" },
+    "close": { "en-US": "Closed" }
+  },
+  "PaymentMethod": {
+    "01": { "en-US": "Bank Transfer" },
+    "02": { "en-US": "Counter Deposit" }
+  },
+  "PayablesType_jp": {
+    "P": { "ja-JP": "归属于投保人" },
+    "C": { "ja-JP": "归属于被保险者" },
+    "I": { "ja-JP": "归属于受益人" }
+  },
+  "Claim Request": {
+    "manualAssessment": { "en-US": "Manual Assessment" },
+    "claimApproval": { "en-US": "Claim Approval" },
+    "autoAssessment": { "en-US": "Auto Assessment" },
+    "dataCapture": { "en-US": "Data Capture" },
+    "qualityControl": { "en-US": "Quality Control" }
+  },
+  "status": { "0": { "en-US": "Active" }, "1": { "en-US": "In-active" } },
+  "TransferAccount_jp": {
+    "01": { "ja-JP": "振替口座" },
+    "02": { "ja-JP": "指定口座" }
+  },
+  "SubmissionChannel_jp": { "01": { "ja-JP": "SFDC" } },
+  "Organization": {
+    "ORGTH00301": { "en-US": "TH Claim Admin" },
+    "ORG00101": { "en-US": "FWD Thailand Bangkok" },
+    "ORG00201": { "en-US": "Sales Marketing" },
+    "ORGTH00302": { "en-US": "TH Assessor" },
+    "ORG00202": { "en-US": "Claim Department" },
+    "ORG00301": { "en-US": "Claim Data Capture" },
+    "ORG00302": { "en-US": "Claim Assessment" },
+    "ORG00203": { "en-US": "Policy Administration" }
+  },
+  "activity": {
+    "CP_ACT001": { "en-US": "Quality Control" },
+    "autoAssessment": { "en-US": "Auto Assessment", "ja-JP": "自動査定" },
+    "CP_ACT003": { "en-US": "Manual Assessment" },
+    "CP_ACT002": { "en-US": "Auto Assessment" },
+    "qualityControl": { "en-US": "Quality Control", "ja-JP": "品質管理" },
+    "JP_CA_ACT004": { "en-US": "Claim Approval", "ja-JP": "决裁" },
+    "JP_CA_ACT002": { "en-US": "Manual Assessment", "ja-JP": "一次查定" },
+    "JP_CA_ACT003": { "en-US": "Assessment Review", "ja-JP": "二次查定" },
+    "manualAssessment": { "en-US": "Manual Assessment", "ja-JP": "人工的評価" },
+    "JP_CR_ACT001": { "en-US": "Claim Registration", "ja-JP": "事故受付" },
+    "claimApproval": { "en-US": "Claim Approval", "ja-JP": "クレーム決裁" },
+    "dataCapture": { "en-US": "Data Capture", "ja-JP": "データ収集" },
+    "JP_CA_ACT001": { "en-US": "Auto Assessment", "ja-JP": "自動查定" }
+  },
+  "certificate": {
+    "certificate1": { "en-US": "Business" },
+    "certificate2": { "en-US": "Language" }
+  },
+  "DiagnosisType_jp": {
+    "P": { "ja-JP": "主な疾病" },
+    "S": { "ja-JP": "二次的な疾病" }
+  },
+  "button": {
+    "app.navigator.task-detail-of-claim-assessment.beneficiary.button.add-card": {
+      "en-US": "Add",
+      "ja-JP": "増加"
+    },
+    "component.button.return": { "en-US": "RETURN", "ja-JP": "戻る" },
+    "app.navigator.task-detail-of-data-capture.button.accept": {
+      "en-US": "accept",
+      "ja-JP": "该当"
+    },
+    "app.navigator.drawer.pending.button.waive": {
+      "en-US": "Waive",
+      "ja-JP": "諦める"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.assessment-compare": {
+      "en-US": "contrast of the circular ",
+      "ja-JP": "稟議書対比"
+    },
+    "app.navigator.taskDetail.inquireForm.button.batch-add": {
+      "en-US": "Batch add",
+      "ja-JP": "バッチ増加"
+    },
+    "app.navigator.drawer.remark.button.delete-draft": {
+      "en-US": "Delete Draft",
+      "ja-JP": "下書き削除"
+    },
+    "app.navigator.task-detail-of-data-capture.button.days": {
+      "en-US": "DAYS",
+      "ja-JP": "日数"
+    },
+    "app.navigator.task-detail-of-data-capture.button.procedure": {
+      "en-US": "Procedure",
+      "ja-JP": "手術"
+    },
+    "app.navigator.drawer.remark.button.save-as-draft": {
+      "en-US": "Save as Draft",
+      "ja-JP": "下書きとして保存"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.incident-payable": {
+      "en-US": "Incident Payable",
+      "ja-JP": "給付金をふやす"
+    },
+    "app.navigator.drawer.messager.button.no": {
+      "en-US": "No",
+      "ja-JP": "いいえ"
+    },
+    "app.navigator.task-detail-of-data-capture.button.fee": {
+      "en-US": "Fee",
+      "ja-JP": "費用"
+    },
+    "app.navigator.drawer.pending.button.letter": {
+      "en-US": "Letter",
+      "ja-JP": "文書"
+    },
+    "app.navigator.taskDetail.inquireForm.button.batch-deletion": {
+      "en-US": "Batch deletion",
+      "ja-JP": "バッチ削除"
+    },
+    "app.navigator.task-detail-of-data-capture.button.error": {
+      "en-US": "ERROR",
+      "ja-JP": "エラー"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.re-assessment": {
+      "en-US": "Re - Assessment",
+      "ja-JP": "再評価"
+    },
+    "app.navigator.taskDetail.inquireForm.button.switch-to-list-mode": {
+      "en-US": "Switch to list mode",
+      "ja-JP": "リストモードを切り替える"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.contract-liquidation": {
+      "en-US": "Contract Liquidation",
+      "ja-JP": "契約精算"
+    },
+    "app.navigator.task-detail-of-data-capture.button": {
+      "en-US": "Incident",
+      "ja-JP": "事件"
+    },
+    "app.navigator.task-detail-of-data-capture.button.reject": {
+      "en-US": "REJECT",
+      "ja-JP": "断る"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.payment-allocation": {
+      "en-US": "Payment Allocation",
+      "ja-JP": "支払いを配分"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.invoice-payable": {
+      "en-US": "Invoice Payable",
+      "ja-JP": "インボイス支払金額"
+    },
+    "app.navigator.drawer.pending.button.sms": {
+      "en-US": "SMS",
+      "ja-JP": "SMS"
+    },
+    "component.button.next": { "en-US": "next", "ja-JP": "ネクスト" },
+    "app.navigator.task-detail-of-data-capture.button.service": {
+      "en-US": "Service",
+      "ja-JP": "サービス"
+    },
+    "component.button.back": { "en-US": "back", "ja-JP": "バック" },
+    "app.navigator.task-detail-of-claim-assessment.button.treatment-payable": {
+      "en-US": "Treatment Payable",
+      "ja-JP": "給付金をふやす"
+    },
+    "app.navigator.task-detail-of-data-capture.button.submit": {
+      "en-US": "SUBMIT",
+      "ja-JP": "提出"
+    },
+    "app.navigator.task-detail-of-data-capture.button.delete": {
+      "en-US": "Delete",
+      "ja-JP": "デリート"
+    },
+    "app.navigator.drawer.pending.button.more": {
+      "en-US": "More",
+      "ja-JP": "もっと"
+    },
+    "app.navigator.drawer.messager.button.yes": {
+      "en-US": "Yes",
+      "ja-JP": "はい"
+    },
+    "app.navigator.taskDetail.inquireForm.button.reject": {
+      "en-US": "Reject",
+      "ja-JP": "断る"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.service-payable": {
+      "en-US": "Service Payable",
+      "ja-JP": "サービス支払金額"
+    },
+    "app.navigator.caseDetail.button.end-case": {
+      "en-US": "End Case",
+      "ja-JP": "案件終了"
+    },
+    "app.navigator.task-detail-of-data-capture.button.day": {
+      "en-US": "DAY",
+      "ja-JP": "日にち"
+    },
+    "app.navigator.task-detail-of-data-capture.button.decision": {
+      "en-US": "Decision",
+      "ja-JP": "該当/非該当"
+    },
+    "app.navigator.task-detail-of-claim-assessment.beneficiary.button.beneficiary": {
+      "en-US": "Beneficiary",
+      "ja-JP": "受益者"
+    },
+    "app.navigator.task-detail-of-claim-assessment.button.day": {
+      "en-US": "DAY",
+      "ja-JP": "日"
+    },
+    "app.usermanagement.button.create-new-dashboard": {
+      "en-US": "Create New Dashboard",
+      "ja-JP": "新たなダッシュボードを作成する"
+    },
+    "app.navigator.taskDetail.inquireForm.button.cancel": {
+      "en-US": "Cancel",
+      "ja-JP": "キャンセル"
+    }
+  },
+  "ClaimDecision_jp": { "A": { "ja-JP": "支払" }, "D": { "ja-JP": "拒否" } },
+  "DiagnosisType": {
+    "P": { "en-US": "Primary" },
+    "S": { "en-US": "Secondary" }
+  },
+  "Benefit Category": {
+    "R": { "en-US": "Reimbursement Benefit" },
+    "C": { "en-US": "Cash Benefit" },
+    "L": { "en-US": "Life Benefit" }
+  },
+  "PageButton": {
+    "image": { "en-US": "Image Data", "ja-JP": "画像データ" },
+    "nonApplicableSubmit": { "ja-JP": "非該当提出" },
+    "submit": { "en-US": "Submit", "ja-JP": "提出" },
+    "reject": { "en-US": "Reject", "ja-JP": "拒否" },
+    "returnAppDoc": { "ja-JP": "請求書類戻る" },
+    "save": { "en-US": "Save", "ja-JP": "保存" },
+    "urgent": { "en-US": "Urgent", "ja-JP": "至急" },
+    "favorite": { "en-US": "Favorite", "ja-JP": "ブックマーク" },
+    "sendAppForm": { "ja-JP": "請求書発送" }
+  },
+  "Account_jp": {
+    "01": { "ja-JP": "普通" },
+    "02": { "ja-JP": "当座" },
+    "03": { "ja-JP": "貯蓄" }
+  },
+  "InsuredState": {
+    "R": { "en-US": "Recovered" },
+    "D": { "en-US": "Dead" },
+    "U": { "en-US": "Under Treatment" },
+    "I": { "en-US": "Disabled" }
+  },
+  "IDAC": {
+    "CP_ACT001": { "en-US": "Quality Control" },
+    "CP_ACT003": { "en-US": "Manual Assessment" },
+    "CP_ACT002": { "en-US": "Auto Assessment" }
+  },
+  "Relationship_jp": {
+    "10": { "ja-JP": "法人" },
+    "90": { "ja-JP": "法定相続人" },
+    "PAR": { "ja-JP": "父母" },
+    "OTH": { "ja-JP": "その他の続柄" },
+    "BNS": { "ja-JP": "兄弟姉妹" },
+    "07": { "ja-JP": "孫" },
+    "08": { "ja-JP": "その他親族" },
+    "09": { "ja-JP": "内縁" },
+    "EMP": { "ja-JP": "雇用主" },
+    "SLF": { "ja-JP": "本人" },
+    "SPU": { "ja-JP": "配偶者" },
+    "GPA": { "ja-JP": "祖父母" },
+    "CHD": { "ja-JP": "子" }
+  },
+  "RBAC_Group": {
+    "PGJP003": { "en-US": "一次査定组" },
+    "PGJP004": { "ja-JP": "二次査定组" },
+    "PGJP001": { "en-US": "事故受付组" },
+    "PGJP002": { "en-US": "請求書作成组" },
+    "PGJP005": { "ja-JP": "査定決裁组" },
+    "PGJP006": { "ja-JP": "理赔组" },
+    "PG001": { "en-US": "Capture Teammate", "ja-JP": "データ入力メンバー" },
+    "PG002": { "en-US": "Capture Team Leader", "ja-JP": "えーた入力リーダー" },
+    "PGTH003": { "en-US": "Senior Assessor", "ja-JP": "上級査定者" },
+    "PG003": { "en-US": "Assessment Teammate", "ja-JP": "査定組メンバー" },
+    "PG004": { "en-US": "Assessment Team Leader", "ja-JP": "査定組リーダー" },
+    "PG005": { "en-US": "Claim Dept Head", "ja-JP": "クレーム部部長" },
+    "PGTH002": { "en-US": "Assessor", "ja-JP": "査定者" },
+    "PGTH001": { "en-US": "Claim Admin", "ja-JP": "クレーム管理" }
+  },
+  "PolicyType_jp": {
+    "G": { "ja-JP": "団体保険" },
+    "I": { "ja-JP": "個人保険" }
+  },
+  "AssessmentDecision_jp": {
+    "A": { "ja-JP": "支払" },
+    "D": { "ja-JP": "拒否" }
+  },
+  "ApprovalDecision_jp": { "A": { "ja-JP": "支払" }, "D": { "ja-JP": "拒否" } },
+  "JP_CA_CTG01": {
+    "JP_CA_ACT004": { "en-US": "Claim Approval", "ja-JP": "决裁" },
+    "JP_CA_ACT002": { "en-US": "Manual Assessment", "ja-JP": "一次查定" },
+    "JP_CA_ACT003": { "en-US": "Assessment Review", "ja-JP": "二次查定" },
+    "JP_CA_ACT001": { "en-US": "Auto Assessment", "ja-JP": "自動查定" }
+  },
+  "PaymentMethod_jp": {
+    "01": { "ja-JP": "銀行送金" },
+    "02": { "ja-JP": "郵便振替" }
+  },
+  "IncidentInsuredType_jp": {
+    "01": { "ja-JP": "被保険者" },
+    "02": { "ja-JP": "配偶者" },
+    "03": { "ja-JP": "こども" },
+    "04": { "ja-JP": "こども保険契約者" },
+    "05": { "ja-JP": "家族型配偶者" },
+    "06": { "ja-JP": "家族型こども" }
+  },
+  "InquiryStatus": {
+    "todo": { "en-US": "TO DO", "ja-JP": "やります" },
+    "pending": { "en-US": "Pending", "ja-JP": "保留中" },
+    "cancelled": { "en-US": "Cancelled", "ja-JP": "取り消し" },
+    "completed": { "en-US": "Completed", "ja-JP": "完了" }
+  },
+  "link_to": {
+    "task": { "en-US": "task" },
+    "insured": { "en-US": "insured" },
+    "case": { "en-US": "case" },
+    "policy": { "en-US": "policy" }
+  },
+  "CaseCategory": {
+    "IHBC": { "en-US": "IPD (Hospital Billing) - Cashless (TBC)" },
+    "OR": { "en-US": "OPD - Reimbursement" },
+    "PAC": { "en-US": "Pre-Arrangement - Cashless" },
+    "JP_CA_CTG01": { "en-US": "Claim Assessment", "ja-JP": "支払査定" },
+    "OC": { "en-US": "OPD - Cashless" },
+    "JP_CR_CTG01": { "en-US": "Claim Registration", "ja-JP": "事故受付" },
+    "IAPDAC": { "en-US": "IPD (AP&DA) - Cashless" },
+    "IAPC": { "en-US": "IPD (AP) - Cashless" },
+    "IR": { "en-US": "IPD - Reimbursement" },
+    "OHBC": { "en-US": "OPD (Hospital Billing) - Cashless (TBC)" },
+    "Claim Request": { "en-US": "Claim Request", "ja-JP": "クレーム要求" },
+    "IDAC": { "en-US": "IPD (DA) - Cashless" }
+  },
+  "marital": {
+    "marital2": { "en-US": "Married" },
+    "marital3": { "en-US": "Divorced" },
+    "marital1": { "en-US": "Single" }
+  },
+  "risk_status": {
+    "PS": { "en-US": "Contract Proposal" },
+    "DH": { "en-US": "Approved Death Claim" },
+    "PU": { "en-US": "Paid Up Contract" },
+    "FL": { "en-US": "Freelook Cancellation" },
+    "LR": { "en-US": "Lapse Reinstatement" },
+    "NT": { "en-US": "Not taken Up" },
+    "PW": { "en-US": "Windforward Pending" },
+    "HP": { "en-US": "PH Reinstatement Pending" },
+    "WD": { "en-US": "Contract Withdrawn" },
+    "DR": { "en-US": "Rejected Death Claim" },
+    "MA": { "en-US": "Contract Matured" },
+    "IF": { "en-US": "In Force" },
+    "SR": { "en-US": "Surrender Reinstatement" },
+    "CC": { "en-US": "CI Fully Claim" },
+    "SU": { "en-US": "Contract Surrendered" },
+    "AC": { "en-US": "Accident Fully Claim" },
+    "UW": { "en-US": "Underwriting" },
+    "MP": { "en-US": "Component changes - modify prp" },
+    "CF": { "en-US": "Cancelled from Inception" },
+    "CP": { "en-US": "Certificate Printed" },
+    "TC": { "en-US": "TPD Fully Claim " },
+    "AP": { "en-US": "Component change - Add prpsl" },
+    "RD": { "en-US": "Registered Death Claim" },
+    "EX": { "en-US": "Expiry" },
+    "LA": { "en-US": "Contract Lapsed" },
+    "VR": { "en-US": "Vesting Registered" },
+    "TR": { "en-US": "Contract Terminated" },
+    "DC": { "en-US": "Contract Declined" },
+    "PO": { "en-US": "Contract Postponed" }
+  },
+  "APDASubmissionChannel": {
+    "P": { "en-US": "Post" },
+    "A": { "en-US": "Agent" },
+    "B": { "en-US": "Branch" },
+    "E": { "en-US": "E-Claim" },
+    "W": { "en-US": "Walk in" },
+    "H": { "en-US": "Hospital Portal" },
+    "L": { "en-US": "Line" }
+  },
+  "ProcedureType_jp": {
+    "01": { "ja-JP": "放射線治療" },
+    "02": { "ja-JP": "先進医療" }
+  },
+  "RUW": { "RUWP_ACT001": { "en-US": "Underwriting" } },
+  "ProcedureItem_jp": {
+    "01": { "ja-JP": "放射" },
+    "02": { "ja-JP": "放射線" }
+  },
+  "Relationship": {
+    "PAR": { "en-US": "Parent" },
+    "OTH": { "en-US": "Others" },
+    "BNS": { "en-US": "Brother&Sister" },
+    "SPU": { "en-US": "Spouse" },
+    "GPA": { "en-US": "Grandparent" },
+    "EMP": { "en-US": "Employer" },
+    "SLF": { "en-US": "Self" },
+    "CHD": { "en-US": "Child" }
+  },
+  "information": {
+    "assessment": { "en-US": "assessment_note" },
+    "approval": { "en-US": "approval_comment" },
+    "reject": { "en-US": "reject_message" },
+    "remark": { "en-US": "remark" }
+  },
+  "WaivedReason_jp": {
+    "01": { "ja-JP": "被保険者障害" },
+    "02": { "ja-JP": "契約者死亡" },
+    "03": { "ja-JP": "契約者高度障害" },
+    "04": { "ja-JP": "契約者身体障害" },
+    "05": { "ja-JP": "被保険者高度障害" },
+    "06": { "ja-JP": "被保険者要介護" },
+    "07": { "ja-JP": "被保険者疾病" }
+  },
+  "category": {
+    "assessmentNotice": {
+      "en-US": "Assessment Notice",
+      "ja-JP": "一次査定注意点"
+    },
+    "approvalNote": { "en-US": "Approval Note", "ja-JP": "決裁意見" },
+    "approvalNotice": { "en-US": "Approval Notice", "ja-JP": "決裁注意点" },
+    "reject": { "en-US": "Reject Message", "ja-JP": "拒否意見" },
+    "remark": { "en-US": "Remark", "ja-JP": "備考" },
+    "assessmentReviewNote": {
+      "en-US": "Assessment Review Note",
+      "ja-JP": "二次査定意見"
+    },
+    "assessmentNote": { "en-US": "Assessment Note", "ja-JP": "一次査定意見" }
+  },
+  "InsuredState_jp": {
+    "A": { "ja-JP": "入院予定" },
+    "R": { "ja-JP": "退院" },
+    "D": { "ja-JP": "死亡" },
+    "U": { "ja-JP": "入院" },
+    "I": { "ja-JP": "高障" }
+  },
+  "activity_status": {
+    "todo": { "en-US": "To Do", "ja-JP": "やります" },
+    "pending": { "en-US": "Pending", "ja-JP": "保留中" },
+    "inprogress": { "en-US": "In Progress", "ja-JP": "進行中" },
+    "cancelled": { "en-US": "Cancelled", "ja-JP": "取り消し" },
+    "completed": { "en-US": "Completed", "ja-JP": "完了" },
+    "error": { "en-US": "Error", "ja-JP": "エラー" }
+  }
+}

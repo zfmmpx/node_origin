@@ -2,8 +2,8 @@
 const rd = require('rd');
 const path = require('path');
 const fs = require('fs');
-const dictionary = require('./dictionary.json')
-console.log('dictionary:', dictionary)
+const lodash = require('lodash');
+const dictionary = require('./content.json')
 
 // 同步遍历目录下的所有文件
 rd.eachSync(path.resolve(process.cwd()), f => {
@@ -25,46 +25,71 @@ rd.eachSync(path.resolve(process.cwd()), f => {
   ) {
     const contentBuffer = fs.readFileSync(f);
     const str = contentBuffer.toString();
-    // 如果这个文件修改过，就不要继续
-    if (/import ErrorTooltip from '@\/components\/ErrorTooltip'/g.test(str)) return;
-
-    // 找到formName
-    const reg_formName = /(?<={(?:form.)?getFieldDecorator\s*\(\s*(?:'|"))\b([\w\.]+?)\b(?=(?:'|"))/g;
-    const listFormName = str.match(reg_formName)
-
-    // 找到原始label，插入到title
-    const reg_origin_label = /(?<=(?:<Form.Item|<FormItem)(?:.|\n)*?label={\s*)formatMessage\(\s*{\s*id:\s*['"][\w\.-]+['"],?\s*}\s*\)/g
-    const listOriginLabel = str.match(reg_origin_label)
-
-    // 测试是否有解构form变量
-    const reg_form_declearation = /(?<=render\(\)\s?{[\s\S]*?(?<!\/\/\s*)const {[\s\S]*?)form(?!:)(?=[\s\S]*?} = this.props)/g
-    const hasFormDeclearation = reg_form_declearation.test(str)
 
 
-    let final_result = str;
-    if (Array.isArray(listFormName) && Array.isArray(listOriginLabel)) {
-      let count = 0
-      // 第一次替换
-      final_result = final_result.replace(reg_origin_label, () => {
-        const insert = `<ErrorTooltip form={form} formName="${listFormName[count]}" title={${listOriginLabel[count]}} /> `
-        count += 1
+    // 找到 formatMessage ---- 第一次替换：把formatMessage替换成formatMessageApi
+    const reg_formatMessage = /formatMessage(?=\(\s*{\s*id:\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+    const listFormatMessage = str.match(reg_formatMessage)
+    // console.log('listFormatMessage:', listFormatMessage)
 
-        return insert
-      })
+    // 找到 dict_code ---- 为了根据dict_code 从dictionary找到 typeCode
+    const reg_dict_code = /(?<=formatMessage\(\s*{\s*id:\s*['"])[\w\.-]+(?=['"],?\s*}\s*\))/g
+    const listDictCode = str.match(reg_dict_code)
+    // console.log('listDictCode:', listDictCode)
 
-      if (!hasFormDeclearation) {
-        // 第二次替换（解构声明form变量）
-        final_result = final_result.replace(/(?<=render\(\)\s?{)/, '\n    const { form } = this.props;')
+    if (Array.isArray(listFormatMessage) && Array.isArray(listDictCode)) {
+      let final_result = str;
+
+      const listTypeCode = lodash
+        .chain(listDictCode)
+        .reduce((result, v) => {
+          const typeCode = lodash.reduce(dictionary, (result2, value2, key) => {
+            if (lodash.has(value2, v)) {
+              result2 = key
+              return result2
+            }
+            return result2
+          }, '')
+          if (typeCode) {
+            return result.concat(typeCode)
+          }
+          return result
+        }, [])
+        .value();
+
+
+      if (!lodash.isEmpty(listTypeCode)) {
+        // 第一次替换：把formatMessage替换成formatMessageApi
+        final_result = final_result.replace(reg_formatMessage, () => {
+          const replacement = 'formatMessageApi'
+
+          return replacement
+        })
+
+        // 第二次替换 ---- 把 id 替换成 typeCode[count]
+        let count = 0
+        const reg_id = /(?<=formatMessage\(\s*{\s*)id(?=:\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+        final_result = final_result.replace(reg_id, () => {
+          const replacement = listTypeCode[count]
+          count = count + 1
+
+          return replacement
+        })
+
+        // 如果没有import { formatMessageApi }，就手动import一下
+        if (!/import { formatMessageApi } from '@\/utils\/dictFormatMessage'/g.test(str)) {
+          // 第三次替换
+          final_result = final_result.replace(
+            /^/g,
+            "import ErrorTooltip from '@/components/ErrorTooltip';\n"
+          );
+        };
+
+        // 写入文件
+        fs.writeFileSync(f, final_result);
       }
 
-      // 第三次替换
-      final_result = final_result.replace(
-        /^/g,
-        "import ErrorTooltip from '@/components/ErrorTooltip';\n"
-      );
 
-      // 写入文件
-      fs.writeFileSync(f, final_result);
     }
 
   }
