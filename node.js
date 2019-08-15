@@ -35,13 +35,11 @@ rd.eachSync(path.resolve(process.cwd()), f => {
     const reg_dict_code = /(?<=formatMessage\(\s*{\s*id:\s*['"])[\w\.-]+(?=['"],?\s*}\s*\))/g
     const listDictCode = str.match(reg_dict_code)
 
-    // 找到 formatMessage ---- 第二次替换：把formatMessage替换成formatMessageApi
-    const reg_formatMessage = /formatMessage(?=\(\s*{\s*(button|label|message):\s*['"][\w\.-]+['"],?\s*}\s*\))/g
-    const listFormatMessage = str.match(reg_formatMessage)
 
 
 
-    if (!lodash.isEmpty(listRegId) && Array.isArray(listDictCode) && Array.isArray(listFormatMessage)) {
+
+    if (!lodash.isEmpty(listRegId) && Array.isArray(listDictCode)) {
       console.log('f:', f)
       let final_result = str;
 
@@ -65,26 +63,29 @@ rd.eachSync(path.resolve(process.cwd()), f => {
       if (!lodash.isEmpty(listTypeCode)) {
         // 第一次替换 ---- 把 id 替换成 typeCode[count]
         let count1 = 0
-        final_result = final_result.replace(reg_id, () => {
+        final_result = final_result.replace(reg_id, (originValue) => {
           if (listTypeCode[count1]) {
             const replacement = listTypeCode[count1]
             count1 = count1 + 1
 
             return replacement
           }
-          // return false
+          return originValue
         })
 
-
-
-        // 第二次替换：把formatMessage替换成formatMessageApi
-        let count2 = 0
-        final_result = final_result.replace(reg_formatMessage, () => {
-          if (listTypeCode[count2]) {
-            return 'formatMessageApi'
-          }
-          return false
-        })
+        // 找到 formatMessage ---- 第二次替换：把formatMessage替换成formatMessageApi
+        const reg_formatMessage = /formatMessage(?=\(\s*{\s*(button|label|message):\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+        const listFormatMessage = final_result.match(reg_formatMessage)
+        if (Array.isArray(listFormatMessage)) {
+          // 第二次替换：把formatMessage替换成formatMessageApi
+          let count2 = 0
+          final_result = final_result.replace(reg_formatMessage, () => {
+            if (listTypeCode[count2]) {
+              return 'formatMessageApi'
+            }
+            return false
+          })
+        }
 
 
 
