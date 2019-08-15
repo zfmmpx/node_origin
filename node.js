@@ -27,22 +27,28 @@ rd.eachSync(path.resolve(process.cwd()), f => {
     const str = contentBuffer.toString();
 
 
-    // 找到 formatMessage ---- 第一次替换：把formatMessage替换成formatMessageApi
-    const reg_formatMessage = /formatMessage(?=\(\s*{\s*id:\s*['"][\w\.-]+['"],?\s*}\s*\))/g
-    const listFormatMessage = str.match(reg_formatMessage)
-    // console.log('listFormatMessage:', listFormatMessage)
+    // 增加一个条件：listRegId不为空才执行替换；这样就能排除掉已经替换过了的文件
+    const reg_id = /(?<=formatMessage\(\s*{\s*)id(?=:\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+    const listRegId = str.match(reg_id)
 
-    // 找到 dict_code ---- 为了根据dict_code 从dictionary找到 typeCode
+    // 找到 dict_code ---- 为了第一次替换：为了根据dict_code 从dictionary找到 typeCode
     const reg_dict_code = /(?<=formatMessage\(\s*{\s*id:\s*['"])[\w\.-]+(?=['"],?\s*}\s*\))/g
     const listDictCode = str.match(reg_dict_code)
-    // console.log('listDictCode:', listDictCode)
 
-    if (Array.isArray(listFormatMessage) && Array.isArray(listDictCode)) {
+    // 找到 formatMessage ---- 第二次替换：把formatMessage替换成formatMessageApi
+    const reg_formatMessage = /formatMessage(?=\(\s*{\s*(button|label|message):\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+    const listFormatMessage = str.match(reg_formatMessage)
+
+
+
+    if (!lodash.isEmpty(listRegId) && Array.isArray(listDictCode) && Array.isArray(listFormatMessage)) {
+      console.log('f:', f)
       let final_result = str;
 
+      // 为了第一次替换：根据dict_code 从dictionary找到 typeCode
       const listTypeCode = lodash
         .chain(listDictCode)
-        .reduce((result, v) => {
+        .map((v) => {
           const typeCode = lodash.reduce(dictionary, (result2, value2, key) => {
             if (lodash.has(value2, v)) {
               result2 = key
@@ -50,38 +56,44 @@ rd.eachSync(path.resolve(process.cwd()), f => {
             }
             return result2
           }, '')
-          if (typeCode) {
-            return result.concat(typeCode)
-          }
-          return result
-        }, [])
+          return typeCode
+        })
         .value();
 
-
+      console.log('listRegId:', listRegId)
+      console.log('listTypeCode:', listTypeCode)
       if (!lodash.isEmpty(listTypeCode)) {
-        // 第一次替换：把formatMessage替换成formatMessageApi
-        final_result = final_result.replace(reg_formatMessage, () => {
-          const replacement = 'formatMessageApi'
-
-          return replacement
-        })
-
-        // 第二次替换 ---- 把 id 替换成 typeCode[count]
-        let count = 0
-        const reg_id = /(?<=formatMessage\(\s*{\s*)id(?=:\s*['"][\w\.-]+['"],?\s*}\s*\))/g
+        // 第一次替换 ---- 把 id 替换成 typeCode[count]
+        let count1 = 0
         final_result = final_result.replace(reg_id, () => {
-          const replacement = listTypeCode[count]
-          count = count + 1
+          if (listTypeCode[count1]) {
+            const replacement = listTypeCode[count1]
+            count1 = count1 + 1
 
-          return replacement
+            return replacement
+          }
+          // return false
         })
+
+
+
+        // 第二次替换：把formatMessage替换成formatMessageApi
+        let count2 = 0
+        final_result = final_result.replace(reg_formatMessage, () => {
+          if (listTypeCode[count2]) {
+            return 'formatMessageApi'
+          }
+          return false
+        })
+
+
 
         // 如果没有import { formatMessageApi }，就手动import一下
         if (!/import { formatMessageApi } from '@\/utils\/dictFormatMessage'/g.test(str)) {
           // 第三次替换
           final_result = final_result.replace(
             /^/g,
-            "import ErrorTooltip from '@/components/ErrorTooltip';\n"
+            "import { formatMessageApi } from '@/utils/dictFormatMessage';\n"
           );
         };
 
